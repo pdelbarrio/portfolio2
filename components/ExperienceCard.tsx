@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 
 export interface Props {
   experience: {
-    // Define the properties of the experience object here
     logo: string;
     title: string;
     company: string;
@@ -32,8 +31,23 @@ export default function ExperienceCard({ experience }: Props) {
       <div className="px-0 md:px-10">
         <h4 className="text-4xl font-light">{experience.title}</h4>
         <p className="font-bold text-2xl mt-1">{experience.company}</p>
+        <p className="uppercase py-5 text-gray-300">{experience.period}</p>
+
+        <ul className="list-disc space-y-4 ml-5 text-lg">
+          {experience.tasks.map((task, index) => (
+            <li key={index}>{task}</li>
+          ))}
+        </ul>
         <div className="flex space-x-2 my-2">
           {/* Tech used */}
+          {experience.techUsed.map((tech, index) => (
+            <img
+              className="h-10 w-10 rounded-full"
+              key={index}
+              src={tech}
+              alt="/"
+            />
+          ))}
           {/* <img
             className="h-10 w.10 rounded-full"
             src="https://portfoliov2-nine-ecru.vercel.app/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fgetoutbcn%2Fimage%2Fupload%2Fv1675346770%2Fportfolio%2Fskills%2Freact_wda0bf.png&w=64&q=75"
@@ -50,26 +64,6 @@ export default function ExperienceCard({ experience }: Props) {
             alt=""
           />*/}
         </div>
-        <p className="uppercase py-5 text-gray-300">{experience.period}</p>
-
-        {/* <ul className="list-disc space-y-4 ml-5 text-lg">
-          <li>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste nulla
-            omnis ipsum, voluptates fugiat porro
-          </li>
-          <li>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste nulla
-            omnis ipsum, voluptates fugiat porro
-          </li>
-          <li>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste nulla
-            omnis ipsum, voluptates fugiat porro
-          </li>
-          <li>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste nulla
-            omnis ipsum, voluptates fugiat porro
-          </li>
-        </ul> */}
       </div>
     </article>
   );

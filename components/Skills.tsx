@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import React from "react";
-import Skill from "./Skill";
+import SkillCard from "./SkillCard";
+import skills from "../public/utils/skills";
 
 type Props = {};
 
@@ -17,30 +18,9 @@ function Skills({}: Props) {
       </h3>
 
       <div className="grid gap-3 mt-20 grid-cols-4 xl:grid-cols-5">
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
+        {skills.map((skill, index) => (
+          <SkillCard key={index} skill={skill} />
+        ))}
       </div>
     </motion.div>
   );

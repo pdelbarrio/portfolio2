@@ -4,7 +4,15 @@ const workExperience = [
     title: "Software developer",
     company: "2i Informática Industrial",
     period: "July 2022- November 2022",
-    techUsed: [""],
+    techUsed: [
+      "https://res.cloudinary.com/getoutbcn/image/upload/v1675346771/portfolio/skills/javascript_t9lsm6.png",
+      "https://res.cloudinary.com/getoutbcn/image/upload/v1675346770/portfolio/skills/react_wda0bf.png",
+      "https://res.cloudinary.com/getoutbcn/image/upload/v1675346771/portfolio/skills/firebase_mukml9.png",
+      "https://res.cloudinary.com/getoutbcn/image/upload/v1675346770/portfolio/skills/reactnative_mpsyqb.png",
+      "https://res.cloudinary.com/getoutbcn/image/upload/v1675888744/portfolio/skills/postgreSQL_kwec7x.png",
+      "https://res.cloudinary.com/getoutbcn/image/upload/v1675888854/portfolio/skills/docker_jjsmjr.png",
+      "https://res.cloudinary.com/getoutbcn/image/upload/v1675346771/portfolio/skills/figma_yhfp4k.png",
+    ],
     tasks: [
       "Development of an API user administration interface with React and Firebase.",
       "Implementation of new data filtering functionality in an active React Native project (with Expo) with PostgreSQL and Sequelize.",
@@ -19,7 +27,14 @@ const workExperience = [
     company: "Prialt",
     period: "November 2021 - February 2022",
     location: "Remote",
-    techUsed: [""],
+    techUsed: [
+      "https://res.cloudinary.com/getoutbcn/image/upload/v1675346771/portfolio/skills/javascript_t9lsm6.png",
+      "https://res.cloudinary.com/getoutbcn/image/upload/v1675346771/portfolio/skills/html_amjhaa.png",
+      "https://res.cloudinary.com/getoutbcn/image/upload/v1675346771/portfolio/skills/css_qeb8mq.png",
+      "https://res.cloudinary.com/getoutbcn/image/upload/v1675346770/portfolio/skills/react_wda0bf.png",
+      "https://res.cloudinary.com/getoutbcn/image/upload/v1675889195/portfolio/skills/PWA_qrkp44.png",
+      "https://res.cloudinary.com/getoutbcn/image/upload/v1675346771/portfolio/skills/figma_yhfp4k.png",
+    ],
     tasks: [
       "Frontend of a web application that calculates drug doses for pharmaceutical use.",
       "Calculation code done using OOP in Javascript.",
@@ -33,7 +48,7 @@ const workExperience = [
     company: "VASS | Digital Solutions",
     period: "March 2015 - Sept 2020",
     location: "Barcelona, Spain",
-    techUsed: [""],
+    techUsed: [],
     tasks: [
       "Technical support to the ticketing platform users of the 10 CaixaForum centers in Spain.",
       "Issues resolution, follow up and escalation through 3 different channels: email, phone, and ticket platform.",

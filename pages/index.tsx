@@ -27,7 +27,16 @@ export default function Home() {
       </section>
 
       <section id="experience" className="snap-center">
-        <Experience />
+        <Experience
+          experience={{
+            logo: "",
+            title: "",
+            company: "",
+            period: "",
+            tasks: [],
+            techUsed: [],
+          }}
+        />
       </section>
 
       <section id="skills" className="snap-start">

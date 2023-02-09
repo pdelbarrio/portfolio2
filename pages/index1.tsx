@@ -18,27 +18,27 @@ export default function Home() {
 
       <Header />
 
-      <section id="hero" className="py-20">
+      <section id="hero" className="snap-start">
         <Hero />
       </section>
 
-      <section id="about" className="py-20">
+      <section id="about" className="snap-center">
         <About />
       </section>
 
-      <section id="experience" className="py-20">
+      <section id="experience" className="snap-center">
         <Experience />
       </section>
 
-      <section id="skills" className="py-20">
+      <section id="skills" className="snap-start">
         <Skills />
       </section>
 
-      <section id="projects" className="py-20">
+      <section id="projects" className="snap-start">
         <Projects />
       </section>
 
-      <section id="conract" className="py-20">
+      <section id="conract" className="snap-start">
         <Contact />
       </section>
 

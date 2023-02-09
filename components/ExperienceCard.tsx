@@ -48,21 +48,6 @@ export default function ExperienceCard({ experience }: Props) {
               alt="/"
             />
           ))}
-          {/* <img
-            className="h-10 w.10 rounded-full"
-            src="https://portfoliov2-nine-ecru.vercel.app/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fgetoutbcn%2Fimage%2Fupload%2Fv1675346770%2Fportfolio%2Fskills%2Freact_wda0bf.png&w=64&q=75"
-            alt=""
-          />
-          <img
-            className="h-10 w.10 rounded-full"
-            src="https://portfoliov2-nine-ecru.vercel.app/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fgetoutbcn%2Fimage%2Fupload%2Fv1675346770%2Fportfolio%2Fskills%2Freact_wda0bf.png&w=64&q=75"
-            alt=""
-          />
-          <img
-            className="h-10 w.10 rounded-full"
-            src="https://portfoliov2-nine-ecru.vercel.app/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fgetoutbcn%2Fimage%2Fupload%2Fv1675346770%2Fportfolio%2Fskills%2Freact_wda0bf.png&w=64&q=75"
-            alt=""
-          />*/}
         </div>
       </div>
     </article>

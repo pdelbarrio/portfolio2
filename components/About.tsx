@@ -28,7 +28,7 @@ export default function About({}: Props) {
           x: 0,
         }}
         // viewport={{ once: true}}
-        src="https://res.cloudinary.com/getoutbcn/image/upload/v1675675126/portfolio/logoinscreen_koxgyc.jpg"
+        src="https://res.cloudinary.com/getoutbcn/image/upload/v1675601661/portfolio/transbg_ezfzf8.png"
         className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]"
       />
 

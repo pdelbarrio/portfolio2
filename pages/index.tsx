@@ -2,8 +2,9 @@ import About from "@/components/About";
 import Contact from "@/components/Contact";
 import Experience from "@/components/Experience";
 import Header from "@/components/Header";
-import Hero from "@/components/Hero";
+import Main from "@/components/Main";
 import Projects from "@/components/Projects";
+import Resume from "@/components/Resume";
 import Skills from "@/components/Skills";
 import Head from "next/head";
 import Link from "next/link";
@@ -11,7 +12,7 @@ import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
 export default function Home() {
   return (
-    <div className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80">
+    <div className="bg-[#3b6b86] text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80">
       <Head>
         <title>Pablo del Barrio | Frontend Developer</title>
       </Head>
@@ -19,7 +20,7 @@ export default function Home() {
       <Header />
 
       <section id="hero" className="py-20">
-        <Hero />
+        <Main />
       </section>
 
       <section id="about" className="py-20">
@@ -38,7 +39,11 @@ export default function Home() {
         <Projects />
       </section>
 
-      <section id="conract" className="py-20">
+      <section id="resume" className="py-20">
+        <Resume />
+      </section>
+
+      <section id="contact" className="py-20">
         <Contact />
       </section>
 

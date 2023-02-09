@@ -19,7 +19,7 @@ export default function Home() {
 
       <Header />
 
-      <section id="hero" className="py-20">
+      <section id="main" className="py-20">
         <Main />
       </section>
 
@@ -47,7 +47,7 @@ export default function Home() {
         <Contact />
       </section>
 
-      <Link href="#hero">
+      <Link href="#main">
         <footer className="sticky bottom-5 w-full cursor-pointer">
           <div className="flex items-center justify-center">
             <HiOutlineChevronDoubleUp className=" filter hover:grayscale-0 cursor-pointer" />

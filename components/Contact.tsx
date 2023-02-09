@@ -18,29 +18,29 @@ const Contact = () => {
 
   return (
     <div className="h-screen flex relative flex-col text-center md:text-left md:flex-row mx-w-7xl px-10 justify-evenly mx-auto items-center">
-      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
+      <h3 className="absolute top-24 uppercase tracking-[20px] text-white text-2xl">
         Contact
       </h3>
 
       <div className="flex flex-col space-y-10">
         <h4 className="text-4xl font-semibold text-center">
           I have got just what you need.{" "}
-          <span className="decoration-[#F7AB0A]/50 underline">Lets talk</span>
+          <span className="decoration-[#000000]/50 underline">Lets talk</span>
         </h4>
 
         <div className="space-y-10">
           <div className="flex items-center space-x-5 justify-center">
-            <BsFillTelephoneFill className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
+            <BsFillTelephoneFill className="text-[#000000] h-7 w-7 animate-pulse" />
             <p className="text-2xl">+34 699456249</p>
           </div>
 
           <div className="flex items-center space-x-5 justify-center">
-            <BsFillEnvelopeFill className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
+            <BsFillEnvelopeFill className="text-[#000000] h-7 w-7 animate-pulse" />
             <p className="text-2xl">pablodbb@gmail.com</p>
           </div>
 
           <div className="flex items-center space-x-5 justify-center">
-            <FaMapMarkerAlt className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
+            <FaMapMarkerAlt className="text-[#000000] h-7 w-7 animate-pulse" />
             <p className="text-2xl">Barcelona, Spain</p>
           </div>
         </div>

@@ -13,7 +13,7 @@ const SkillCard = ({ skill }: Props) => {
 
   return (
     <div
-      className="group relative flex cursor-pointer"
+      className="group relative flex cursor-pointer skill-card"
       onMouseOver={() => setShowText(true)}
       onMouseLeave={() => setShowText(false)}
     >

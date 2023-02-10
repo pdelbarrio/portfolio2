@@ -14,29 +14,28 @@ function Resume({}) {
         Curriculum
       </h3>
 
-      <div className="">
-        <div className="">
-          <div className="">
-            <Link
-              href="https://res.cloudinary.com/getoutbcn/image/upload/v1676059929/portfolio/PablodelBarrio_english2023_o24tto.pdf"
-              target="_blank"
-            >
-              ENG
-            </Link>
-            <Link
-              href="https://res.cloudinary.com/getoutbcn/image/upload/v1676059929/portfolio/PablodelBarrio_catala2023_vfrayp.pdf"
-              target="_blank"
-            >
-              CAT
-            </Link>
-            <Link
-              href="https://res.cloudinary.com/getoutbcn/image/upload/v1676059929/portfolio/PablodelBarrio_spanish2023_vqfvkw.pdf"
-              target="_blank"
-            >
-              CAST
-            </Link>
-          </div>
-        </div>
+      <div className="grid gap-6 grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
+        <Link
+          href="https://res.cloudinary.com/getoutbcn/image/upload/v1676059929/portfolio/PablodelBarrio_english2023_o24tto.pdf"
+          target="_blank"
+          className="p-6 bg-white shadow-xl rounded-lg text-black hover:scale-105 transition duration-200"
+        >
+          ENG
+        </Link>
+        <Link
+          href="https://res.cloudinary.com/getoutbcn/image/upload/v1676059929/portfolio/PablodelBarrio_catala2023_vfrayp.pdf"
+          target="_blank"
+          className="p-6 bg-white shadow-xl rounded-lg text-black hover:scale-105 transition duration-200"
+        >
+          CAT
+        </Link>
+        <Link
+          href="https://res.cloudinary.com/getoutbcn/image/upload/v1676059929/portfolio/PablodelBarrio_spanish2023_vqfvkw.pdf"
+          target="_blank"
+          className="p-6 bg-white shadow-xl rounded-lg text-black hover:scale-105 transition duration-200"
+        >
+          CAST
+        </Link>
       </div>
     </motion.div>
   );

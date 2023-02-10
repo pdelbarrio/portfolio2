@@ -8,6 +8,22 @@
   }
 }
 
+.skill-card {
+  width: 100px;
+}
+
+@media only screen and (min-width: 768px) {
+  .skill-card {
+    width: 150px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .skill-card {
+    width: 200px;
+  }
+}
+
 @media (max-width: 640px) {
   .emailInput {
     margin-left: -2px !important;

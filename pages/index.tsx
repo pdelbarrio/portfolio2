@@ -1,6 +1,6 @@
 import About from "@/components/About";
 import Contact from "@/components/Contact";
-import Experience from "@/components/Experience";
+// import Experience from "@/components/Experience";
 import Header from "@/components/Header";
 import Main from "@/components/Main";
 import Projects from "@/components/Projects";
@@ -27,9 +27,9 @@ export default function Home() {
         <About />
       </section>
 
-      <section id="experience" className="py-20">
+      {/* <section id="experience" className="py-20">
         <Experience />
-      </section>
+      </section> */}
 
       <section id="skills" className="py-20">
         <Skills />

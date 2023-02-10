@@ -42,7 +42,7 @@ const Contact = () => {
 
         <form
           onSubmit={handleSubmit(onSubmit)}
-          className="flex flex-col space-y-2 mx-auto "
+          className="flex flex-col space-y-2 mx-auto"
         >
           <div className="flex flex-col sm:flex-row space-x-2">
             <input
@@ -54,7 +54,7 @@ const Contact = () => {
             <input
               {...register("email")}
               placeholder="Email"
-              className="contactInput"
+              className="contactInput mt-2 sm:mt-0 emailInput"
               type="email"
             />
           </div>
@@ -65,7 +65,6 @@ const Contact = () => {
             className="contactInput"
             type="text"
           />
-
           <textarea
             {...register("message")}
             placeholder="Message"

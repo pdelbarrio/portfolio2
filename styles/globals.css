@@ -8,6 +8,12 @@
   }
 }
 
+@media (max-width: 640px) {
+  .emailInput {
+    margin-left: -2px !important;
+  }
+}
+
 @layer base {
   body {
     @apply bg-[#3B6B96] text-[black] tracking-wide;

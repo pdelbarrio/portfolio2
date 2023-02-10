@@ -29,7 +29,7 @@ const projects = [
     description:
       "Frontend of a web application that calculates drug doses for pharmaceutical use. Click the info button for more info and a demo",
     image:
-      "https://res.cloudinary.com/getoutbcn/image/upload/v1675939546/portfolio/projects/prialt_snmxdc.png",
+      "https://res.cloudinary.com/getoutbcn/image/upload/v1676051276/portfolio/projects/prialt_qlgvbb.png",
     techUsed: ["HTML", "JavaScript", "CSS", "React"],
     linkGithub: "",
     linkDeploy: "",

@@ -22,28 +22,29 @@ type Props = {
 
 const ProjectCard = ({ projects }: Props) => {
   return (
-    <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center  p-10 overflow-hidden">
-      {/* <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen"> */}
-      <motion.img
-        initial={{
-          y: -300,
-          opacity: 0,
-        }}
-        transition={{
-          duration: 1.2,
-        }}
-        whileInView={{
-          opacity: 1,
-          y: 0,
-        }}
-        viewport={{ once: true }}
-        src={projects.image}
-        alt="/"
-      />
+    <div className="relative flex flex-col items-center justify-center h-auto border border-black rounded-lg">
       <div>
-        <p className="font-bold text-2xl mt-1">{projects.name}</p>
+        <motion.img
+          initial={{
+            y: -300,
+            opacity: 0,
+          }}
+          transition={{
+            duration: 1.2,
+          }}
+          whileInView={{
+            opacity: 1,
+            y: 0,
+          }}
+          viewport={{ once: true }}
+          src={projects.image}
+          alt="/"
+        />
       </div>
-      <p>{projects.description}</p>
+      <div className="px-2">
+        <h3>{projects.name}</h3>
+        <p>{projects.description}</p>
+      </div>
       <div className="m-4">
         {projects.techUsed.map((tech, index) => (
           <span
@@ -53,8 +54,9 @@ const ProjectCard = ({ projects }: Props) => {
             {tech}
           </span>
         ))}
-
-        <div className="flex items-center justify-evenly py-4">
+      </div>
+      <div className="flex items-center justify-evenly py-4">
+        {projects.linkDeploy === "" ? null : (
           <Link
             className="rounded-full shadow-lg bg-white p-6 cursor-pointer hover:scale-110 ease-in duration-300 mx-4"
             href={projects.linkDeploy}
@@ -62,22 +64,26 @@ const ProjectCard = ({ projects }: Props) => {
           >
             <BiLinkExternal className="text-black h-7 w-7" />
           </Link>
+        )}
+        {projects.linkGithub === "" ? null : (
           <Link
-            className="rounded-full shadow-lg bg-white p-6 cursor-pointer hover:scale-110 ease-in duration-300 mx-4"
+            className="rounded-full shadow-lg  bg-white p-6 cursor-pointer hover:scale-110 ease-in duration-300 mx-4"
             href={projects.linkGithub}
             target="_blank"
           >
             <FaGithub className="text-black h-7 w-7" />
           </Link>
+        )}
+        {projects.moreInfo ? (
           <Link
-            className="rounded-full shadow-lg bg-white p-6 cursor-pointer hover:scale-110 ease-in duration-300 mx-4"
-            href="/getout"
+            className="rounded-full shadow-lg  bg-white  p-6 cursor-pointer hover:scale-110 ease-in duration-300 mx-4"
+            href=""
           >
             <BsInfoCircleFill className="text-black h-7 w-7" />
           </Link>
-        </div>
+        ) : null}
       </div>
-    </article>
+    </div>
   );
 };
 

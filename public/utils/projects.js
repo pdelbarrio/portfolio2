@@ -2,7 +2,7 @@ const projects = [
   {
     name: "GetOut BCN",
     description:
-      "GET OUT BCN is a collaborative database of cool spots in Barcelona.",
+      "GET OUT BCN is a collaborative database of cool spots in Barcelona. Click the info button for more info and a demo",
     image:
       "https://res.cloudinary.com/getoutbcn/image/upload/v1675715953/portfolio/projects/getout_j5jli1.png",
     techUsed: [
@@ -27,7 +27,7 @@ const projects = [
   {
     name: "intrathecapp web app (PRIALT)",
     description:
-      "Frontend of a web application that calculates drug doses for pharmaceutical use.",
+      "Frontend of a web application that calculates drug doses for pharmaceutical use. Click the info button for more info and a demo",
     image:
       "https://res.cloudinary.com/getoutbcn/image/upload/v1675939546/portfolio/projects/prialt_snmxdc.png",
     techUsed: ["HTML", "JavaScript", "CSS", "React"],

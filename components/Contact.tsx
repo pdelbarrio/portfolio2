@@ -1,5 +1,5 @@
 import React from "react";
-import { BsFillTelephoneFill, BsFillEnvelopeFill } from "react-icons/bs";
+import { BsFillEnvelopeFill } from "react-icons/bs";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { useForm, SubmitHandler } from "react-hook-form";
 
@@ -18,22 +18,17 @@ const Contact = () => {
 
   return (
     <div className="h-screen flex relative flex-col text-center md:text-left md:flex-row mx-w-7xl px-10 justify-evenly mx-auto items-center">
-      <h3 className="absolute top-24 uppercase tracking-[20px] text-white text-2xl">
+      <h3 className="absolute top-24 uppercase tracking-[20px] text-white text-2xl -my-40">
         Contact
       </h3>
 
       <div className="flex flex-col space-y-10">
-        <h4 className="text-4xl font-semibold text-center">
+        <h4 className="text-2xl xl:text-4xl font-semibold text-center">
           I have got just what you need.{" "}
           <span className="decoration-[#000000]/50 underline">Lets talk</span>
         </h4>
 
         <div className="space-y-10">
-          <div className="flex items-center space-x-5 justify-center">
-            <BsFillTelephoneFill className="text-[#000000] h-7 w-7 animate-pulse" />
-            <p className="text-2xl">+34 699456249</p>
-          </div>
-
           <div className="flex items-center space-x-5 justify-center">
             <BsFillEnvelopeFill className="text-[#000000] h-7 w-7 animate-pulse" />
             <p className="text-2xl">pablodbb@gmail.com</p>
@@ -47,7 +42,8 @@ const Contact = () => {
 
         <form
           onSubmit={handleSubmit(onSubmit)}
-          className="flex flex-col space-y-2 w-fit mx-auto"
+          // className="flex flex-col space-y-2 w-fit mx-auto"
+          className="flex flex-col space-y-2 mx-auto  sm:w-2/3 xs:w-1/3"
         >
           <div className="flex space-x-2">
             <input
@@ -79,7 +75,7 @@ const Contact = () => {
 
           <button
             type="submit"
-            className="bg-[#F7AB0A] py-5 px-10 rounded-md text-black font-bold text-lg"
+            className="bg-[#000000] py-5 px-10 rounded-md text-white font-bold text-lg"
           >
             Submit
           </button>

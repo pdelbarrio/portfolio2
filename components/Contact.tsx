@@ -42,10 +42,9 @@ const Contact = () => {
 
         <form
           onSubmit={handleSubmit(onSubmit)}
-          // className="flex flex-col space-y-2 w-fit mx-auto"
-          className="flex flex-col space-y-2 mx-auto  sm:w-2/3 xs:w-1/3"
+          className="flex flex-col space-y-2 mx-auto "
         >
-          <div className="flex space-x-2">
+          <div className="flex flex-col sm:flex-row space-x-2">
             <input
               {...register("name")}
               placeholder="Name"
@@ -80,7 +79,6 @@ const Contact = () => {
             Submit
           </button>
         </form>
-        {/* form */}
       </div>
     </div>
   );

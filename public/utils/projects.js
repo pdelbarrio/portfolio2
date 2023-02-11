@@ -2,7 +2,7 @@ const projects = [
   {
     name: "GetOut BCN",
     description:
-      "GET OUT BCN is a collaborative database of cool spots in Barcelona. Click the info button for more info and a demo",
+      "GET OUT BCN is a collaborative database of cool spots in Barcelona. Click the info button for more info or in the play button for a demo.",
     image:
       "https://res.cloudinary.com/getoutbcn/image/upload/v1675715953/portfolio/projects/getout_j5jli1.png",
     techUsed: [
@@ -27,14 +27,14 @@ const projects = [
   {
     name: "intrathecapp web app (PRIALT)",
     description:
-      "Frontend of a web application that calculates drug doses for pharmaceutical use. Click the info button for more info and a demo",
+      "Frontend of a web application that calculates drug doses for pharmaceutical use. Click the info button for more info  or in the play button for a demo.",
     image:
       "https://res.cloudinary.com/getoutbcn/image/upload/v1676051276/portfolio/projects/prialt_qlgvbb.png",
     techUsed: ["HTML", "JavaScript", "CSS", "React"],
     linkGithub: "",
     linkDeploy: "",
     longDescription:
-      "Frontend of a web application that calculates drug doses for pharmaceutical use. Intrathecapp is an application intended to calculate the doses of a medication to be administered to patients. The client gave us a complex excel file with a multitude of formulas that related different excel fields according to some inputs. The logic part of the calculator was made using Javascript OOP. The backend was done with django and the frontend (my part) with React, using Hooks and Context to manage the state. The application and the repository are private but below I show a small demo.",
+      "Frontend of a web application that calculates drug doses for pharmaceutical use. Intrathecapp is an application intended to calculate the doses of a medication to be administered to patients. The client gave us a complex excel file with a multitude of formulas that related different excel fields according to some inputs. The logic part of the calculator was made using Javascript OOP. The backend was done with django and the frontend (my part) with React, using Hooks and Context to manage the state. The application is in stand by and the repository is private but you can see a small demo if you click the play button.",
     linkVideodemo: "https://vimeo.com/720597336",
     status:
       "After developing the project the company decided to leave its release on standby, but you can see a demo.",

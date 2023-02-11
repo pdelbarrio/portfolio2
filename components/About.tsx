@@ -29,7 +29,7 @@ export default function About({}: Props) {
           x: 0,
         }}
         src="https://res.cloudinary.com/getoutbcn/image/upload/v1675601661/portfolio/transbg_ezfzf8.png"
-        className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px] c"
+        className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[400px] xl:h-[500px] c"
       />
 
       <div className="space-y-10 px-0 md:px-10 sm:w-full py-20">

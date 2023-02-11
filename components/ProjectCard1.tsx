@@ -2,8 +2,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import React, { useState } from "react";
 import { BiLinkExternal } from "react-icons/bi";
-import { FaGithub, FaInfo } from "react-icons/fa";
-import Modal from "./Modal";
+import { FaGithub, FaInfo, FaPlay } from "react-icons/fa";
 
 type Props = {
   projects: {
@@ -22,6 +21,7 @@ type Props = {
 
 const ProjectCard = ({ projects }: Props) => {
   const [showModal, setShowModal] = useState(false);
+
   return (
     <div className="relative flex flex-col items-center justify-center h-auto border border-black rounded-lg">
       <div>
@@ -84,12 +84,15 @@ const ProjectCard = ({ projects }: Props) => {
             <FaInfo className="text-black h-7 w-7" />
           </Link>
         )}
+        {projects.linkVideodemo === "" ? null : (
+          <Link
+            className="rounded-full shadow-lg bg-white  p-4 cursor-pointer hover:scale-110 ease-in duration-300 mx-4"
+            href=""
+          >
+            <FaPlay className="text-black h-7 w-7" />
+          </Link>
+        )}
       </div>
-      <Modal
-        showModal={showModal}
-        setShowModal={setShowModal}
-        projects={projects}
-      />
     </div>
   );
 };

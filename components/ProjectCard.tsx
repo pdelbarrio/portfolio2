@@ -62,38 +62,38 @@ const ProjectCard = ({ projects }: Props) => {
       <div className="flex items-center justify-evenly py-4">
         {projects.linkDeploy === "" ? null : (
           <Link
-            className="rounded-full shadow-lg bg-white p-4 cursor-pointer hover:scale-110 ease-in duration-300 mx-4"
+            className="rounded-full shadow-lg bg-white p-4 cursor-pointer hover:scale-110 ease-in duration-300 mx-2"
             href={projects.linkDeploy}
             target="_blank"
           >
-            <BiLinkExternal className="text-black h-7 w-7" />
+            <BiLinkExternal className="text-black h-6 w-6" />
           </Link>
         )}
         {projects.linkGithub === "" ? null : (
           <Link
-            className="rounded-full shadow-lg  bg-white p-4 cursor-pointer hover:scale-110 ease-in duration-300 mx-4"
+            className="rounded-full shadow-lg bg-white p-4 cursor-pointer hover:scale-110 ease-in duration-300 mx-2"
             href={projects.linkGithub}
             target="_blank"
           >
-            <FaGithub className="text-black h-7 w-7" />
+            <FaGithub className="text-black h-6 w-6" />
           </Link>
         )}
         {projects.longDescription === "" ? null : (
           <Link
-            className="rounded-full shadow-lg  bg-white p-4 cursor-pointer hover:scale-110 ease-in duration-300 mx-4"
+            className="rounded-full shadow-lg bg-white p-4 cursor-pointer hover:scale-110 ease-in duration-300 mx-2"
             href=""
             onClick={() => setShowModal(true)}
           >
-            <FaInfo className="text-black h-7 w-7" />
+            <FaInfo className="text-black h-6 w-6" />
           </Link>
         )}
         {projects.linkVideodemo === "" ? null : (
           <Link
-            className="rounded-full shadow-lg  bg-white p-4 cursor-pointer hover:scale-110 ease-in duration-300 mx-4"
+            className="rounded-full shadow-lg bg-white p-4 cursor-pointer hover:scale-110 ease-in duration-300 mx-2"
             href=""
             onClick={() => setShowModalVideo(true)}
           >
-            <BiPlay className="text-black h-7 w-7" />
+            <BiPlay className="text-black h-6 w-6" />
           </Link>
         )}
       </div>

@@ -22,8 +22,8 @@ const ModalVideo = ({ showModalVideo, setShowModalVideo, projects }) => {
           <h3 className="text-lg md:text-2xl text-black font-bold mb-2 md:mb-4">
             {projects.name}
           </h3>
-          <div className="">
-            <ReactPlayer url={projects.linkVideodemo} />
+          <div className="flex items-center justify-center">
+            <ReactPlayer url={projects.linkVideodemo} controls />
           </div>
         </motion.div>
       </motion.div>

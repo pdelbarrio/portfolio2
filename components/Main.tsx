@@ -8,7 +8,7 @@ const Main = () => {
     <div id="home" className="w-full h-screen text-center">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div className="">
-          <div className="flex flex-col md:flex-row items-center max-w-[70%] m-auto">
+          <div className="flex flex-col md:flex-row items-center max-w-[70%] m-auto md:mr-1">
             <h1 className="text-white mt-5 md:mt-10">Hi, I am </h1>
             <img
               className="h-50 w-80 inline-block"

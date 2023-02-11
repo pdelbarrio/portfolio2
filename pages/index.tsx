@@ -39,7 +39,7 @@ export default function Home() {
         <Projects />
       </section>
 
-      <section id="resume" className="py-20">
+      <section id="resume" className="py-1">
         <Resume />
       </section>
 

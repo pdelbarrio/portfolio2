@@ -8,33 +8,29 @@ function Resume({}) {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-      className="h-screen flex relative overflow-hidden flex-col text-left md:flex-row max-w-full px-10 justify-evenly mx-auto items-center"
+      className="h-screen flex relative overflow-hidden max-w-full mx-auto justify-evenly items-center flex-col md:flex-row"
     >
       <h3 className="absolute top-24 uppercase tracking-[20px] text-white text-2xl">
         Curriculum
       </h3>
 
-      <div className="grid gap-6 grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
+      <div className="flex flex-col md:flex-row justify-center items-center mt-20">
         <Link
           href="https://res.cloudinary.com/getoutbcn/image/upload/v1676059929/portfolio/PablodelBarrio_english2023_o24tto.pdf"
           target="_blank"
-          className="p-6 bg-white shadow-xl rounded-lg text-black hover:scale-105 transition duration-200"
         >
-          ENG
+          <button className="text-black w-40 uppercase bg-white hover:scale-105 transition duration-200 focus_outline-none text-sm rounded-lg px-10 py-2.5 text-center font-bold mr-5 mb-5 md:mb-0">
+            Download CV in English
+          </button>
         </Link>
-        <Link
-          href="https://res.cloudinary.com/getoutbcn/image/upload/v1676059929/portfolio/PablodelBarrio_catala2023_vfrayp.pdf"
-          target="_blank"
-          className="p-6 bg-white shadow-xl rounded-lg text-black hover:scale-105 transition duration-200"
-        >
-          CAT
-        </Link>
+
         <Link
           href="https://res.cloudinary.com/getoutbcn/image/upload/v1676059929/portfolio/PablodelBarrio_spanish2023_vqfvkw.pdf"
           target="_blank"
-          className="p-6 bg-white shadow-xl rounded-lg text-black hover:scale-105 transition duration-200"
         >
-          CAST
+          <button className="text-black w-40 uppercase bg-white hover:scale-105 transition duration-200 focus_outline-none text-sm rounded-lg px-10 py-2.5 text-center font-bold mr-5 mt-5 md:mt-0">
+            Download CV in Spanish
+          </button>
         </Link>
       </div>
     </motion.div>

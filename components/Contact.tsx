@@ -73,7 +73,7 @@ const Contact = () => {
 
           <button
             type="submit"
-            className="bg-[#000000] py-5 px-10 rounded-md text-white font-bold text-lg"
+            className="bg-[#000000] py-5 px-10 text-white font-bold text-lg shadow-xl rounded-xl uppercase"
           >
             Submit
           </button>

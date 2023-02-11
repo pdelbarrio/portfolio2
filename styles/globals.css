@@ -54,8 +54,4 @@
   li {
     @apply cursor-pointer;
   }
-
-  button {
-    @apply shadow-xl rounded-xl uppercase;
-  }
 }

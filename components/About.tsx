@@ -30,7 +30,7 @@ export default function About({}: Props) {
           opacity: 1,
           x: 0,
         }}
-        src="https://res.cloudinary.com/getoutbcn/image/upload/v1676282124/portfolio/silueta2_zldyf2.png"
+        src="https://res.cloudinary.com/getoutbcn/image/upload/v1676286294/portfolio/silueta3_q6pchf.png"
         className="-mb-20 md:mb-0 flex-shrink-0 w-36 h-56 rounded-full object-cover md:rounded-lg md:w-30 md:h-70 xl:w-[415px] xl:h-[631px] c"
       />
 

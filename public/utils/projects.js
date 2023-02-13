@@ -43,7 +43,7 @@ const projects = [
   {
     name: "Videolol",
     description:
-      "E-commerce mobile frienldy site for sale of vhs with shopping cart, social login, possibility to pay by credit card with Stripe integration. PWA has also been implemented so it can be installed on the mobile phone improving the user experience being similar to a native app.",
+      "E-commerce mobile friendly site for sale of vhs with shopping cart, social login, possibility to pay by credit card with Stripe integration. PWA has also been implemented so it can be installed on the mobile phone improving the user experience being similar to a native app.",
     image:
       "https://res.cloudinary.com/getoutbcn/image/upload/v1675939711/portfolio/projects/videolol_gixpjg.png",
     techUsed: ["HTML", "React", "Firebase", "Redux", "Stripe", "PWA"],

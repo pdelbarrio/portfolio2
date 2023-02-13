@@ -11,8 +11,10 @@ export default function About({}: Props) {
       transition={{ duration: 1.5 }}
       className="flex flex-col sm:flex-row relative h-screen text-center md:text-left max-w-7xl px-10 sm:justify-between mx-auto items-center"
     >
-      {/* <h3 className="absolute top-10 uppercase tracking-[20px] text-white text-2xl sm:w-full -my-20"> */}
-      <h3 className="absolute top-24 uppercase tracking-[20px] text-white text-2xl -my-40">
+      <h3
+        className="text-center sm:text-left absolute top-24 uppercase tracking-[20px] text-white text-2xl -my-40"
+        style={{ left: "50%", transform: "translateX(-50%)" }}
+      >
         About
       </h3>
 
@@ -28,8 +30,8 @@ export default function About({}: Props) {
           opacity: 1,
           x: 0,
         }}
-        src="https://res.cloudinary.com/getoutbcn/image/upload/v1675601661/portfolio/transbg_ezfzf8.png"
-        className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[400px] xl:h-[500px] c"
+        src="https://res.cloudinary.com/getoutbcn/image/upload/v1676282124/portfolio/silueta2_zldyf2.png"
+        className="-mb-20 md:mb-0 flex-shrink-0 w-36 h-56 rounded-full object-cover md:rounded-lg md:w-30 md:h-70 xl:w-[415px] xl:h-[631px] c"
       />
 
       <div className="space-y-10 px-0 md:px-10 sm:w-full py-20">

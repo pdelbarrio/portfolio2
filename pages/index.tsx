@@ -1,7 +1,6 @@
 import About from "@/components/About";
 import Contact from "@/components/Contact";
 // import Experience from "@/components/Experience";
-import Header from "@/components/Header";
 import Main from "@/components/Main";
 import Projects from "@/components/Projects";
 import Resume from "@/components/Resume";
@@ -12,18 +11,16 @@ import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
 export default function Home() {
   return (
-    <div className="bg-[#3b6b86] text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#000000]/80">
+    <div className="bg-[#3b6b86]  h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#000000]/80">
       <Head>
         <title>Pablo del Barrio | Frontend Developer</title>
       </Head>
 
-      <Header />
-
-      <section id="main" className="py-20">
+      <section id="main" className="py-20 text-white">
         <Main />
       </section>
 
-      <section id="about" className="py-20">
+      <section id="about" className="py-20 text-white">
         <About />
       </section>
 
@@ -31,19 +28,19 @@ export default function Home() {
         <Experience />
       </section> */}
 
-      <section id="skills" className="py-20">
+      <section id="skills" className="py-20 text-white">
         <Skills />
       </section>
 
-      <section id="projects" className="py-20">
+      <section id="projects" className="py-20 text-white">
         <Projects />
       </section>
 
-      <section id="resume" className="py-1">
+      <section id="resume" className="text-white">
         <Resume />
       </section>
 
-      <section id="contact" className="py-20">
+      <section id="contact" className="text-white">
         <Contact />
       </section>
 

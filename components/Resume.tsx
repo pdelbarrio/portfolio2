@@ -14,7 +14,7 @@ function Resume({}) {
         Curriculum
       </h3>
 
-      <div className="flex flex-col md:flex-row justify-center items-center mt-20">
+      <div className="flex flex-col md:flex-row justify-center items-center">
         <Link
           href="https://res.cloudinary.com/getoutbcn/image/upload/v1676059929/portfolio/PablodelBarrio_english2023_o24tto.pdf"
           target="_blank"

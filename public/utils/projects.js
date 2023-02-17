@@ -74,15 +74,7 @@ const projects = [
     description: "Collaborative agenda of cultural events in Barcelona.",
     image:
       "https://res.cloudinary.com/getoutbcn/image/upload/v1676665063/portfolio/projects/logobcntest05_m0ehmu.png",
-    techUsed: [
-      "HTML",
-      "Tailwind",
-      "JavaScript",
-      "NextJs",
-      "PWA",
-      "Firebase",
-      "Express",
-    ],
+    techUsed: ["HTML", "Tailwind", "JavaScript", "NextJs", "PWA", "Firebase"],
     linkGithub: "",
     linkDeploy: "",
     longDescription:

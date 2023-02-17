@@ -70,17 +70,25 @@ const projects = [
     moreInfo: false,
   },
   {
-    name: "Frequencies Game",
-    description:
-      "Play catch game done in vanilla JavaScript (only for desktop). You are the blue ball and you have to catch the red balls to lower their frequency using the arrow keys.",
+    name: "@bcn",
+    description: "Collaborative agenda of cultural events in Barcelona.",
     image:
-      "https://res.cloudinary.com/getoutbcn/image/upload/v1675348882/portfolio/projects/proj3_qhrb4f.gif",
-    techUsed: ["HTML", "CSS", "JavaScript"],
-    linkGithub: "https://github.com/pdelbarrio/frequencies-game",
-    linkDeploy: "https://pdelbarrio.github.io/frequencies-game/",
-    longDescription: "",
+      "https://res.cloudinary.com/getoutbcn/image/upload/v1676665063/portfolio/projects/logobcntest05_m0ehmu.png",
+    techUsed: [
+      "HTML",
+      "Tailwind",
+      "JavaScript",
+      "NextJs",
+      "PWA",
+      "Firebase",
+      "Express",
+    ],
+    linkGithub: "",
+    linkDeploy: "",
+    longDescription:
+      "It was originally planned to be made in React Native, but taking into account the restrictions of the Android and Apple stores (economic in the latter case), it has been decided to make a first version with Nextjs in which the PWA functionality will be implemented to make it as accessible as possible and have a UX/UI very similar to a native app. The idea of the app is that users can enter events on the one hand, and then you can view these events in a comfortable way to try to have the cultural activity in a single app and not depend on having all the events scattered in other social networks.",
     linkVideodemo: "",
-    status: "Online",
+    status: "Under construction",
     moreInfo: false,
   },
 ];

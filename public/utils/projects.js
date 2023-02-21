@@ -73,7 +73,7 @@ const projects = [
     name: "@bcn",
     description: "Collaborative agenda of cultural events in Barcelona.",
     image:
-      "https://res.cloudinary.com/getoutbcn/image/upload/v1676665063/portfolio/projects/logobcntest05_m0ehmu.png",
+      "https://res.cloudinary.com/getoutbcn/image/upload/v1676983392/portfolio/projects/logobcntest01_moupwk.png",
     techUsed: ["HTML", "Tailwind", "JavaScript", "NextJs", "PWA", "Firebase"],
     linkGithub: "",
     linkDeploy: "",

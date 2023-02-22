@@ -16,7 +16,7 @@ export default function Home() {
         <title>Pablo del Barrio | Frontend Developer</title>
       </Head>
 
-      <section id="main" className="py-20 text-white">
+      <section id="main" className="py-40 md:py-1 text-white">
         <Main />
       </section>
 

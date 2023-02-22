@@ -111,7 +111,7 @@ const Navbar = () => {
             </div>
             <div className="border-b border-gray-300 my-4">
               <p className="w-[85%] md:w-[90%] py-4">
-                Problem solver & fast learner
+                <span className="italic">Problem solver & fast learner</span>
               </p>
             </div>
           </div>

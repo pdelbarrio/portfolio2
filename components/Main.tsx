@@ -18,11 +18,16 @@ const Main = () => {
           </div>
           <h1 className="text-[#fff]">A Frontend Developer</h1>
           <p className="py-4 text-white max-w-[70%] m-auto">
-            Backed by more than a year of experience as a developer working on
-            different projects, either as a freelancer, for companies or in
-            personal projects. Even though I am specialized in Frontend (and
-            more specifically in React), I have the necessary knowledge to
-            perform Backend tasks (and even some DevOps).
+            Backed by more than a year of experience in{" "}
+            <span className="text-black font-bold">Frontend development</span>,
+            I am specialized in{" "}
+            <span className="text-black font-bold">React</span> and have worked
+            on a range of projects for companies, as a freelancer, and on
+            personal endeavors. Even though I am specialized in Frontend, I have
+            the necessary knowledge to perform Backend tasks (and even some
+            DevOps). I am passionate about staying up-to-date with the latest
+            technologies focusing on user experience and prioritizing clean code
+            and atomic design principles.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <Link

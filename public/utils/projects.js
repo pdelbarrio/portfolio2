@@ -66,7 +66,7 @@ const projects = [
     longDescription: "",
     linkVideodemo: "",
     status:
-      "Constant evolution, adding questions and answers using chatGPT. Highscores section still to be fixed and future improvements on the way",
+      "Constant evolution, adding questions and answers using chatGPT. Highscores section still to be fixed and future improvements on the way including new frontend with React/Next",
     moreInfo: false,
   },
   {

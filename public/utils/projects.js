@@ -73,12 +73,12 @@ const projects = [
     name: "@bcn",
     description: "Collaborative agenda of cultural events in Barcelona.",
     image:
-      "https://res.cloudinary.com/getoutbcn/image/upload/v1676983392/portfolio/projects/logobcntest01_moupwk.png",
+      "https://res.cloudinary.com/getoutbcn/image/upload/v1678100900/portfolio/projects/logobcntest02_d4yvhj.png",
     techUsed: ["HTML", "Tailwind", "JavaScript", "NextJs", "PWA", "Firebase"],
     linkGithub: "",
     linkDeploy: "",
     longDescription:
-      "It was originally planned to be made in React Native, but taking into account the restrictions of the Android and Apple stores (economic in the latter case), it has been decided to make a first version with Nextjs in which the PWA functionality will be implemented to make it as accessible as possible and have a UX/UI very similar to a native app. The idea of the app is that users can enter events on the one hand, and then you can view these events in a comfortable way to try to have the cultural activity in a single app and not depend on having all the events scattered in other social networks.",
+      "It was originally planned to be made in React Native, but taking into account the restrictions of the Android and Apple stores, it has been decided to make a first version with Nextjs in which the PWA functionality will be implemented to make it as accessible as possible and have a UX/UI very similar to a native app. The idea of the app is that users can enter events on the one hand, and then you can view these events in a comfortable way to try to have the cultural activity in a single app and not depend on having all the information scattered in other many places.",
     linkVideodemo: "",
     status: "Under construction",
     moreInfo: false,

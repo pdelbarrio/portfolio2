@@ -19,10 +19,12 @@ const Main = () => {
           </div>
           <h1 className="text-[#fff]">a Frontend Developer</h1>
           <p className="py-4 text-white max-w-[70%] m-auto">
-            with strong soft skills. I am passionate about digital culture and
-            creating user-friendly experiences and I always stay up-to-date with
-            the latest technologies. I believe in prioritizing clean code and
-            following atomic design principles, among other things.
+            with 2 years of experience in{" "}
+            <span className="text-black font-bold">React</span>. I am passionate
+            about digital culture and creating user-friendly experiences and I
+            always stay up-to-date with the latest technologies. I believe in
+            prioritizing clean code and following atomic design principles,
+            among other things.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <Link

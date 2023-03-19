@@ -41,10 +41,11 @@ export default function About({}: Props) {
           background
         </h4>
         <p className="text-base">
-          I am a highly motivated and experienced Frontend Developer with over a
-          year of hands-on experience in a variety of projects, including
-          freelance work, company projects, and personal projects. My expertise
-          lies in Frontend development, specifically using{" "}
+          I am a highly motivated and experienced Frontend Developer with{" "}
+          <span className="text-black font-bold">2 years</span> of hands-on
+          experience in a variety of projects, including freelance work, company
+          projects, and personal projects. My expertise lies in Frontend
+          development, specifically using{" "}
           <span className="text-black font-bold">React</span>, but I also have a
           strong understanding of Backend development and some DevOps
           experience. I am passionate about programming and constantly strive to
@@ -52,6 +53,9 @@ export default function About({}: Props) {
           Fullstack Developer with a strong desire to learn and the ability to
           bring both logic and creativity to the development of digital
           solutions.
+          <br />I am currently delving into the new features offered by React in{" "}
+          <span className="text-black font-bold">Nextjs</span> such as server
+          components and their caching capabilities.
         </p>
       </div>
     </motion.div>

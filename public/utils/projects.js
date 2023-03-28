@@ -19,7 +19,7 @@ const projects = [
     linkGithub: "https://github.com/pdelbarrio/getout-front",
     linkDeploy: "https://www.getoutbcn.com/",
     longDescription:
-      "GET OUT BCN is a collaborative database of cool spots in Barcelona. It is divided into different categories. The user has to register to browse or to add spots to the database. The spots are moderated and will not appear until validated by the administrator. Regarding the more technical part one of my purposes with this project was to get into the TypeScript world with React. And although at the beginning it was complicated, as the project progressed I got used to it and it even made some tasks easier if the types were well defined, thus adding an extra layer of security to the application.Another of my purposes was to do testing, and I did TDD with Jest on the backend routes, and I discovered how rewarding the feeling you get when you see all the tests go green ✅ 😏 👌🏻",
+      "GET OUT BCN is a collaborative database of cool spots in Barcelona. It is divided into different categories. The user has to register to browse or to add spots to the database. The spots are moderated and will not appear until validated by the administrator. Regarding the more technical part one of my purposes with this project was to get into the TypeScript world with React. And although at the beginning it was complicated, as the project progressed I got used to it and it even made some tasks easier if the types were well defined, thus adding an extra layer of security to the application. Another of my purposes was to do testing, and I did TDD with Jest on the backend routes",
     linkVideodemo: "https://vimeo.com/720203535",
     status: "Online",
     moreInfo: true,
@@ -73,12 +73,12 @@ const projects = [
     name: "@bcn",
     description: "Collaborative agenda of cultural events in Barcelona.",
     image:
-      "https://res.cloudinary.com/getoutbcn/image/upload/v1678100900/portfolio/projects/logobcntest02_d4yvhj.png",
-    techUsed: ["HTML", "Tailwind", "JavaScript", "NextJs", "PWA", "Firebase"],
+      "https://res.cloudinary.com/getoutbcn/image/upload/v1679991257/portfolio/projects/mocked_fqbaho.png",
+    techUsed: ["HTML", "Tailwind", "JavaScript", "NextJs", "PWA", "Supabase"],
     linkGithub: "",
     linkDeploy: "",
     longDescription:
-      "It was originally planned to be made in React Native, but taking into account the restrictions of the Android and Apple stores, it has been decided to make a first version with Nextjs in which the PWA functionality will be implemented to make it as accessible as possible and have a UX/UI very similar to a native app. The idea of the app is that users can enter events on the one hand, and then you can view these events in a comfortable way to try to have the cultural activity in a single app and not depend on having all the information scattered in other many places.",
+      "At first it was planned to be made in React Native, but it has been decided to make a first version with Nextjs in which the PWA functionality will be implemented, taking advantage of the progressive cache of its latest version, to make it as accessible as possible and have a UX/UI very similar to a native app. The idea of the app is to be able to see all these events in a comfortable way to try to have the cultural activity in a single app and not depend on having all the information scattered in many other sites. It will be the users themselves who can enter events that will later be validated to appear in the agenda",
     linkVideodemo: "",
     status: "Under construction",
     moreInfo: false,

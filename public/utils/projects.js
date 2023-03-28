@@ -71,11 +71,12 @@ const projects = [
   },
   {
     name: "@bcn",
-    description: "Collaborative agenda of cultural events in Barcelona.",
+    description:
+      "Collaborative agenda of cultural events in Barcelona. (UNDER CONSTRUCTION)",
     image:
       "https://res.cloudinary.com/getoutbcn/image/upload/v1679991257/portfolio/projects/mocked_fqbaho.png",
     techUsed: ["HTML", "Tailwind", "JavaScript", "NextJs", "PWA", "Supabase"],
-    linkGithub: "",
+    linkGithub: "https://github.com/pdelbarrio/atbcn",
     linkDeploy: "",
     longDescription:
       "At first it was planned to be made in React Native, but it has been decided to make a first version with Nextjs in which the PWA functionality will be implemented, taking advantage of the progressive cache of its latest version, to make it as accessible as possible and have a UX/UI very similar to a native app. The idea of the app is to be able to see all these events in a comfortable way to try to have the cultural activity in a single app and not depend on having all the information scattered in many other sites. It will be the users themselves who can enter events that will later be validated to appear in the agenda",

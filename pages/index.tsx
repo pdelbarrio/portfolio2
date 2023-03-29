@@ -28,7 +28,7 @@ export default function Home() {
         <Experience />
       </section> */}
 
-      <section id="skills" className="py-20 text-white">
+      <section id="skills" className="py-20 text-white mt-20 md:mt-0">
         <Skills />
       </section>
 

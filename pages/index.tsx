@@ -20,7 +20,7 @@ export default function Home() {
         <Main />
       </section>
 
-      <section id="about" className="py-20 text-white">
+      <section id="about" className="py-20 mb-25 text-white">
         <About />
       </section>
 

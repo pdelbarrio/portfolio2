@@ -59,7 +59,7 @@ const projects = [
     description:
       "Google Translator clone made with React and using the OpenAI API",
     image:
-      "https://res.cloudinary.com/getoutbcn/image/upload/v1680970576/translatorsm_kxkinn.png",
+      "https://res.cloudinary.com/getoutbcn/image/upload/v1680980910/translate_eycnxh.png",
     techUsed: [
       "React",
       "OpenAI",
@@ -72,10 +72,9 @@ const projects = [
     linkGithub: "https://github.com/pdelbarrio/translator-clone",
     linkDeploy: "https://translator-clone.vercel.app/",
     longDescription:
-      "Google Translator clone made with React. The main reason to do this app was to make my first app using the OpenAI API. Also to practice with the hook useReducer and make custom hooks like useDebounce to fine tune the translation. Once I saw the potential of the AI and the use of prompts I might try to use another free API to translate (like the one from DeepL) since this API is not free, even if it is not very expensive, I have put a limit just in case. If it doesn't work because of this limit, you can see the basic operation of the app if you click play on the video demo.",
+      "Google Translator clone made with React. The main reason to do this app was to make my first app using the OpenAI API. Also to practice with the hook useReducer and make custom hooks like useDebounce to fine tune the translation process. Once I saw the potential of the AI and the use of prompts I might try to use another free API to translate (like the one from DeepL) since this API is not free, even if it is not very expensive, I have put a limit just in case. If it doesn't work because of this limit, you can see the basic operation of the app if you click play on the video demo.",
     linkVideodemo: "https://vimeo.com/815872902",
-    status:
-      "Constant evolution, adding questions and answers using chatGPT. Highscores section still to be fixed and future improvements on the way including new frontend with React/Next",
+    status: "",
     moreInfo: false,
   },
   // {

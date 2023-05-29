@@ -17,7 +17,7 @@ const projects = [
       "Figma",
     ],
     linkGithub: "https://github.com/pdelbarrio/getout-front",
-    linkDeploy: "https://www.getoutbcn.com/",
+    linkDeploy: "https://getoutbcn.vercel.app/",
     longDescription:
       "GET OUT BCN is a collaborative database of cool spots in Barcelona. It is divided into different categories. The user has to register to browse or to add spots to the database. The spots are moderated and will not appear until validated by the administrator. Regarding the more technical part one of my purposes with this project was to get into the TypeScript world with React. And although at the beginning it was complicated, as the project progressed I got used to it and it even made some tasks easier if the types were well defined, thus adding an extra layer of security to the application. Another of my purposes was to do testing, and I did TDD with Jest on the backend routes",
     linkVideodemo: "https://vimeo.com/720203535",

@@ -17,7 +17,7 @@ const projects = [
     linkGithub: "https://github.com/pdelbarrio/atbcn",
     linkDeploy: "https://www.atbcn.info/",
     longDescription: `La aplicación para estar al día de los eventos locales.     
-       
+
     Características clave:    
    
       ▶️Explora eventos: Accede a una lista organizada de eventos de tu ciudad en la semana actual y posteriores y desplázate fácilmente para descubrir lo que está sucediendo en tu área.
@@ -30,7 +30,7 @@ const projects = [
       ▶️Protección contra mal uso: He implementado un sistema de baneo de usuarios para prevenir eventos inapropiados o engañosos. Cada evento se vincula al usuario responsable, lo que permite tomar medidas rápidas y eficaces.
       ▶️Privacidad y seguridad: bcn utiliza Supabase como backend, garantizando la protección de tus datos y eliminando la necesidad de configurar tu propio servidor.
         
-      Con @bcn, he creado una herramienta práctica y eficiente para mantener a las personas informadas sobre los eventos locales, solventando el problema de tener toda la información dispersa en diferentes aplicaciones y webs. Además de ser una aplicación muy útil, este proyecto demuestra mi capacidad para leer y aprender nuevas tecnologías experimentales, como la app folder de las versiones de Next.js posteriores a 13.2, los React Server Components y la integración con Supabase.
+      Con @bcn, he creado una herramienta práctica y eficiente para mantener a las personas informadas sobre los eventos locales, solventando el problema de tener toda la información dispersa en diferentes aplicaciones y webs. Además de ser una aplicación muy útil, este proyecto demuestra mi capacidad para moverme con documentación y aprender nuevas tecnologías experimentales, como la app folder de las versiones de Next.js posteriores a 13.2, los React Server Components y la integración con Supabase.
        
       Este proyecto también destaca mi habilidad para crear una interfaz de usuario intuitiva y receptiva, así como mi enfoque en la calidad y la seguridad de los datos. @bcn es más que una simple agenda de eventos; es un testimonio de mi experiencia en desarrollo web y mi capacidad para entregar proyectos funcionales y orientados al usuario.
     `,

@@ -48,6 +48,10 @@ const skills = [
     logo: "https://res.cloudinary.com/getoutbcn/image/upload/v1675346771/portfolio/skills/tailwind_jvfisk.png",
   },
   {
+    name: "Supabase",
+    logo: "https://res.cloudinary.com/getoutbcn/image/upload/v1686760375/portfolio/skills/supabase_os8pen.png",
+  },
+  {
     name: "Firebase",
     logo: "https://res.cloudinary.com/getoutbcn/image/upload/v1675346771/portfolio/skills/firebase_mukml9.png",
   },

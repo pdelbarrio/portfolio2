@@ -17,11 +17,15 @@ const Modal = ({ showModal, setShowModal, projects }) => {
           exit={{ y: "100vh" }}
           className="relative m-auto max-w-full md:max-w-3xl bg-white p-4 md:p-8 rounded-lg shadow-xl"
           onClick={(e) => e.stopPropagation()}
+          style={{ maxHeight: "80%", overflowY: "auto" }} // Added styles for scrolling
         >
           <h3 className="text-lg md:text-2xl text-black font-bold mb-2 md:mb-4">
             {projects.name}
           </h3>
-          <p className="text-base md:text-lg text-black mb-2 md:mb-4">
+          <p
+            className="text-base md:text-lg text-black mb-2 md:mb-4"
+            style={{ whiteSpace: "pre-wrap" }}
+          >
             {projects.longDescription}
           </p>
         </motion.div>

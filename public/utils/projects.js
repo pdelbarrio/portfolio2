@@ -3,7 +3,7 @@ const projects = [
     name: "@bcn.info",
     description: "Agenda de eventos culturales colaborativa de Barcelona.",
     image:
-      "https://res.cloudinary.com/getoutbcn/image/upload/v1686765051/portfolio/projects/atbcnmockup_a4mi86.png",
+      "https://res.cloudinary.com/getoutbcn/image/upload/v1692699413/portfolio/mockedv2_avhipc.png",
     techUsed: [
       "NextJs",
       "HTML",

@@ -33,14 +33,14 @@ const Navbar = () => {
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <Link href="/">
+        <div>
           <Image
             src="https://res.cloudinary.com/getoutbcn/image/upload/v1675348864/portfolio/navLogow_qc3q6b.png"
             alt="logo"
             width="125"
             height="63"
           />
-        </Link>
+        </div>
         <div>
           <ul className="hidden md:flex">
             <li className="ml-10 text-sm text-white uppercase hover:border-b">
@@ -110,40 +110,42 @@ const Navbar = () => {
               </div>
             </div>
             <div className="border-b border-gray-300 my-4">
-              <p className="w-[85%] md:w-[90%] py-4">
-                <span className="italic">Problem solver & fast learner</span>
+              <p className="w-[85%] md:w-[90%] py-2">
+                <span className="italic text-sm">
+                  Problem solver & fast learner
+                </span>
               </p>
             </div>
           </div>
           <div className="py-4 flex flex-col">
             <ul className="uppercase">
               <Link href="#home" scroll={false}>
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                <li onClick={() => setNav(false)} className="py-2 text-sm">
                   Home
                 </li>
               </Link>
               <Link href="#about" scroll={false}>
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                <li onClick={() => setNav(false)} className="py-2 text-sm">
                   About
                 </li>
               </Link>
               <Link href="#skills" scroll={false}>
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                <li onClick={() => setNav(false)} className="py-2 text-sm">
                   Skills
                 </li>
               </Link>
               <Link href="#projects" scroll={false}>
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                <li onClick={() => setNav(false)} className="py-2 text-sm">
                   Projects
                 </li>
               </Link>
               <Link href="#resume" scroll={false}>
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                <li onClick={() => setNav(false)} className="py-2 text-sm">
                   CV
                 </li>
               </Link>
               <Link href="#contact" scroll={false}>
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                <li onClick={() => setNav(false)} className="py-2 text-sm">
                   Contact
                 </li>
               </Link>

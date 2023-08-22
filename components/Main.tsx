@@ -1,8 +1,8 @@
+/* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { HiOutlineMenuAlt3 } from "react-icons/hi";
 
 const Main = () => {
   return (

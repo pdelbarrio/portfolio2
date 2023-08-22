@@ -9,18 +9,18 @@
 }
 
 .skill-card {
-  width: 100px;
+  fixed-width: 100px;
 }
 
 @media only screen and (min-width: 768px) {
   .skill-card {
-    width: 150px;
+    fixed-width: 150px;
   }
 }
 
 @media only screen and (min-width: 992px) {
   .skill-card {
-    width: 200px;
+    fixed-width: 200px;
   }
 }
 
@@ -54,4 +54,13 @@
   li {
     @apply cursor-pointer;
   }
+}
+
+.card:hover {
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;
+}
+
+.card-back {
+  transform: rotateY(180deg);
 }

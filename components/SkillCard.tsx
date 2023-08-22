@@ -1,5 +1,5 @@
-import Image from "next/image";
-import React, { useState } from "react";
+/* eslint-disable @next/next/no-img-element */
+import React from "react";
 
 type Props = {
   skill: {
@@ -9,31 +9,18 @@ type Props = {
 };
 
 const SkillCard = ({ skill }: Props) => {
-  const [showText, setShowText] = useState(false);
-
   return (
-    <div
-      className="group relative flex cursor-pointer skill-card"
-      onMouseOver={() => setShowText(true)}
-      onMouseLeave={() => setShowText(false)}
-    >
-      <div className="p-2 md:p-6 bg-white shadow-xl rounded-xl">
-        <div className="grid grid-cols-2 gap-4 justify-center items-center">
-          <div className="flex justify-center items-center w-full h-full">
-            <div className="flex flex-row w-full h-full">
-              <Image
-                src={skill.logo}
-                width="64"
-                height="64"
-                alt="/"
-                className={`${showText ? "hidden" : "block"}`}
-              />
-              <div className={`text-black ${showText ? "block" : "hidden"}`}>
-                {skill.name}
-              </div>
-              <div className="md:block hidden">{skill.name}</div>
-            </div>
-          </div>
+    <div className="group relative flex cursor-pointer skill-card">
+      <div className="relative w-[100px] h-[50px] md:w-[140px] md:h-[80px] xl:w-[160px] xl:h-[80px] rounded-2xl text-white overflow-hidden cursor-pointer transition-all duration-700 card">
+        <div className="absolute inset-0 w-full h-full flex justify-center items-center bg-white transition-all duration-100 delay-200 z-20 hover:opacity-0">
+          <img
+            className="w-[35px] h-[35px] md:w-[50px] md:h-[50px] xl:w-[64px] xl:h-[64px]"
+            src={skill.logo}
+            alt="Logo"
+          />
+        </div>
+        <div className="absolute inset-0 w-full h-full flex justify-center items-center bg-black transition-all z-10 card-back">
+          <p className="text-xs md:text-sm xl:text-base">{skill.name}</p>
         </div>
       </div>
     </div>

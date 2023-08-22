@@ -1,3 +1,5 @@
+"use client";
+
 import { motion } from "framer-motion";
 import Link from "next/link";
 import React from "react";
@@ -10,7 +12,7 @@ function Resume({}) {
       transition={{ duration: 1.5 }}
       className="h-screen flex relative overflow-hidden max-w-full mx-auto justify-evenly items-center flex-col md:flex-row"
     >
-      <h3 className="absolute top-24 uppercase tracking-[20px] text-white text-2xl">
+      <h3 className="absolute top-24 uppercase tracking-[10px] text-white text-2xl">
         Curriculum
       </h3>
 

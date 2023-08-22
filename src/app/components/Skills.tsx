@@ -1,7 +1,9 @@
+"use client";
+
 import { motion } from "framer-motion";
 import React from "react";
 import SkillCard from "./SkillCard";
-import skills from "../public/utils/skills";
+import skills from "../utils/skills";
 
 type Props = {};
 

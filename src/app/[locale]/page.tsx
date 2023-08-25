@@ -3,18 +3,16 @@
 import Head from "next/head";
 import Link from "next/link";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
-import Main from "./components/Main";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
 import Contact from "./components/Contact";
-import Navbar from "./components/Navbar";
+import Main from "./components/Main";
 
 export default function Home() {
   return (
     <>
-      <Navbar />
       <div className="bg-[#3b6b86]  h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#000000]/80">
         <Head>
           <title>Pablo del Barrio | Frontend Developer</title>

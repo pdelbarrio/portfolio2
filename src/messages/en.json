@@ -1,0 +1,74 @@
+{
+  "LocaleLayout": {
+    "title": "Pablo del Barrio | Frontend Developer"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, es {Spanish} en {English} other {Unknown}}"
+  },
+  "Navbar": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact",
+    "slogan": "Problem solver & fast learner",
+    "findMe": "Find me"
+  },
+  "Main": {
+    "soy": "Hi, I am",
+    "frontend": "a Frontend Developer",
+    "mainText": "with over 2 years of React experience, I'm driven by digital culture and stay current with the latest tech trends. I thrive on blending code and creativity to craft innovative and impactful digital solutions.",
+    "description": "This is a basic example that demonstrates the usage of <code>next-intl</code> with the Next.js App Router. Try changing the locale in the top right corner and see how the content changes."
+  },
+  "About": {
+    "header": "About",
+    "title": "Here is a little background",
+    "description": "I am an experienced and highly motivated Frontend Developer with over 2 years of hands-on experience across a range of projects, including freelance work, company projects, and personal endeavors. Although my specialization is focused on Frontend, I have the necessary knowledge to perform Backend tasks and some DevOps functions, which gives me a Fullstack perspective and a great learning capacity.\n\nIn the Projects section, you'll find a showcase of my work, including my latest project, @bcn, a project where I leveraged the latest features of React in Next.js, such as server components. The project was seamlessly integrated with Supabase, demonstrating my capacity to explore and apply cutting-edge technologies to create comprehensive solutions.\n\nCurrently, I'm learning Angular to expand my skills. This helps me see problem-solving from a new angle compared to my React experience. Learning Angular as a React developer broadens my expertise and enriches my understanding of front-end development."
+  },
+  "Skills": {
+    "title": "Skills"
+  },
+  "Projects": {
+    "title": "Projects"
+  },
+  "Curriculum": {
+    "DownloadEng": "Download CV in English",
+    "DownloadSpa": "Download CV in Spanish"
+  },
+  "Contact": {
+    "title": "Contact",
+    "Phrase": "I have got just what you need. Lets talk",
+    "Name": "Name",
+    "Email": "Email",
+    "Subject": "Subject",
+    "Message": "Message",
+    "Submit": "Submit"
+  },
+  "Error": {
+    "title": "Something went wrong!",
+    "description": "<p>We've unfortunately encountered an error.</p><p>You can try to <retry>reload the page</retry> you were visiting.</p>"
+  },
+  "NotFoundPage": {
+    "title": "Page not found",
+    "description": "Please double-check the browser address bar or use the navigation to go to a known page."
+  },
+  "Navigation": {
+    "home": "Home",
+    "about": "About"
+  },
+  "PageLayout": {
+    "links": {
+      "docs": {
+        "title": "Docs",
+        "description": "Learn more about next-intl in the official docs.",
+        "href": "https://next-intl-docs.vercel.app/"
+      },
+      "source": {
+        "title": "Source code",
+        "description": "Browse the source code of this example on GitHub.",
+        "href": "https://github.com/amannn/next-intl/tree/main/examples/example-next-13"
+      }
+    }
+  }
+}

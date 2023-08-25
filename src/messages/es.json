@@ -1,0 +1,77 @@
+{
+  "LocaleLayout": {
+    "title": "Pablo del Barrio | Frontend Developer"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, es {Spanish} en {English} other {Unknown}}"
+  },
+  "Navbar": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "skills": "Tecnologías",
+    "projects": "Proyectos",
+    "contact": "contacto",
+    "slogan": "Mentalidad resolutiva y rápida capacidad de aprendizaje",
+    "findMe": "Mis redes"
+  },
+  "Main": {
+    "soy": "Hola, soy",
+    "frontend": "un Frontend Developer",
+    "mainText": "con más de 2 años de experiencia en React. Me apasiona la cultura digital y siempre estoy al día con las últimas tendencias en tecnología. Me encanta fusionar código y creatividad para crear soluciones digitales innovadoras y efectivas. Mi objetivo es ofrecer resultados de alta calidad en cada proyecto en el que trabajo.",
+    "description": "This is a basic example that demonstrates the usage of <code>next-intl</code> with the Next.js App Router. Try changing the locale in the top right corner and see how the content changes."
+  },
+  "About": {
+    "header": "Acerca de",
+    "title": "Un poco de historia",
+    "description": "Soy un Frontend Developer experimentado y altamente motivado, con más de 2 años de experiencia práctica en una variedad de proyectos, incluido proyectos como freelance, proyectos corporativos y proyectos personales. Aunque mi especialización se centra en el Frontend, tengo los conocimientos necesarios para realizar tareas de Backend y algunas funciones de DevOps, lo que me brinda una perspectiva Fullstack y una gran capacidad de aprendizaje.\n\nEn la sección de Proyectos, encontrarás una muestra de mi trabajo, incluido mi último proyecto, @bcn, donde aproveché las últimas funciones de React en Next.js, como los Server Components. El proyecto se integró perfectamente con Supabase como BaaS, demostrando mi capacidad para explorar y aplicar tecnologías de vanguardia para crear soluciones integrales.\n\nActualmente, estoy aprendiendo Angular para ampliar mi stack tecnológico. Esto me ayuda a abordar la resolución de problemas desde una nueva perspectiva en comparación con mi experiencia en React. Aprender Angular como desarrollador React amplía mi experiencia y enriquece mi comprensión del desarrollo frontend."
+  },
+  "Skills": {
+    "title": "Tecnologías"
+  },
+  "Projects": {
+    "title": "Proyectos"
+  },
+  "Project": {
+    "title": "Proyectos"
+  },
+  "Curriculum": {
+    "DownloadEng": "Descarga CV en inglés",
+    "DownloadSpa": "Descarga CV en castellano"
+  },
+  "Contact": {
+    "title": "Contacto",
+    "Phrase": "Tengo lo que necesitas. Hablemos",
+    "Name": "Nombre",
+    "Email": "Email",
+    "Subject": "Asunto",
+    "Message": "Mensaje",
+    "Submit": "Enviar"
+  },
+  "Error": {
+    "title": "Something went wrong!",
+    "description": "<p>We've unfortunately encountered an error.</p><p>You can try to <retry>reload the page</retry> you were visiting.</p>"
+  },
+  "NotFoundPage": {
+    "title": "Page not found",
+    "description": "Please double-check the browser address bar or use the navigation to go to a known page."
+  },
+  "Navigation": {
+    "home": "Home",
+    "about": "About"
+  },
+  "PageLayout": {
+    "links": {
+      "docs": {
+        "title": "Docs",
+        "description": "Learn more about next-intl in the official docs.",
+        "href": "https://next-intl-docs.vercel.app/"
+      },
+      "source": {
+        "title": "Source code",
+        "description": "Browse the source code of this example on GitHub.",
+        "href": "https://github.com/amannn/next-intl/tree/main/examples/example-next-13"
+      }
+    }
+  }
+}

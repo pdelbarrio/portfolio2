@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const Modal = ({ showModal, setShowModal, projects }) => {
+const Modal = ({ showModal, setShowModal, project, content }) => {
   return (
     showModal && (
       <motion.div
@@ -20,13 +20,13 @@ const Modal = ({ showModal, setShowModal, projects }) => {
           style={{ maxHeight: "80%", overflowY: "auto" }} // Added styles for scrolling
         >
           <h3 className="text-lg md:text-2xl text-black font-bold mb-2 md:mb-4">
-            {projects.name}
+            {project.name}
           </h3>
           <p
             className="text-base md:text-lg text-black mb-2 md:mb-4"
             style={{ whiteSpace: "pre-wrap" }}
           >
-            {projects.longDescription}
+            {content}
           </p>
         </motion.div>
       </motion.div>

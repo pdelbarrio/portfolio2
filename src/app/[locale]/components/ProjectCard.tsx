@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import { motion } from "framer-motion";
@@ -47,7 +48,7 @@ const ProjectCard = ({ project }: Props) => {
   return (
     <div className="relative flex flex-col items-center justify-center h-auto border border-black rounded-lg">
       <div>
-        <motion.img
+        {/* <motion.img
           initial={{
             y: -300,
             opacity: 0,
@@ -62,6 +63,11 @@ const ProjectCard = ({ project }: Props) => {
           viewport={{ once: true }}
           src={project.image}
           alt="/"
+        /> */}
+        <img
+          src={project.image}
+          alt="/"
+          style={{ width: "auto", height: "auto" }}
         />
       </div>
       <div className="px-2">

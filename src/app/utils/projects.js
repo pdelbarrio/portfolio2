@@ -6,7 +6,7 @@ const projects = [
       en: "Collaborative agenda of cultural events in Barcelona",
     },
     image:
-      "https://res.cloudinary.com/getoutbcn/image/upload/v1692699413/portfolio/mockedv2_avhipc.png",
+      "https://res.cloudinary.com/getoutbcn/image/upload/v1692969003/portfolio/atbcnmockedv3_cdmzbe.png",
     techUsed: [
       "NextJs",
       "HTML",
@@ -139,7 +139,7 @@ const projects = [
       en: "Google Translator clone made with React and using the OpenAI API",
     },
     image:
-      "https://res.cloudinary.com/getoutbcn/image/upload/v1680980910/translate_eycnxh.png",
+      "https://res.cloudinary.com/getoutbcn/image/upload/v1692969547/portfolio/translatemockedv2_hd4nur.png",
     techUsed: [
       "React",
       "OpenAI",

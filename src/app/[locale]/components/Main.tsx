@@ -1,30 +1,33 @@
 /* eslint-disable @next/next/no-img-element */
+"use client";
+
+import { useTranslations } from "next-intl";
+import reactStringReplace from "react-string-replace";
 import Link from "next/link";
 import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const Main = () => {
+  const t = useTranslations("Main");
+
   return (
     <div id="home" className="w-full h-screen text-center">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div className="">
           <div className="flex flex-col md:flex-row items-center max-w-[70%] m-auto md:mr-1">
-            <h1 className="text-white mt-5 md:mt-10">Hi, I am </h1>
+            <h1 className="text-white mt-5 md:mt-10">{t("soy")}</h1>
             <img
               className="h-50 w-80 inline-block"
               src="https://res.cloudinary.com/getoutbcn/image/upload/v1675960453/portfolio/logoloop1_nob0mw.gif"
               alt="logo"
             />
           </div>
-          <h1 className="text-[#fff]">a Frontend Developer</h1>
+          <h1 className="text-[#fff]">{t("frontend")}</h1>
           <p className="py-4 text-white max-w-[70%] m-auto">
-            with 2 years of experience in{" "}
-            <span className="text-black font-bold">React</span>. I am passionate
-            about digital culture and creating user-friendly experiences and I
-            always stay up-to-date with the latest technologies. I believe in
-            prioritizing clean code and following atomic design principles,
-            among other things.
+            {reactStringReplace(t("mainText"), "React", (match, i) => (
+              <span className="text-black font-bold">{match}</span>
+            ))}
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <Link

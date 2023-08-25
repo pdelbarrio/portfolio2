@@ -2,10 +2,14 @@
 
 import { motion } from "framer-motion";
 import React from "react";
+import { useTranslations } from "next-intl";
+import reactStringReplace from "react-string-replace";
 
 type Props = {};
 
 export default function About({}: Props) {
+  const t = useTranslations("About");
+  let replacedWords = {} as any;
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -17,7 +21,7 @@ export default function About({}: Props) {
         className="text-center sm:text-left absolute top-24 uppercase tracking-[20px] text-white text-2xl -my-40"
         style={{ left: "50%", transform: "translateX(-50%)" }}
       >
-        About
+        {t("header")}
       </h3>
 
       <motion.img
@@ -38,28 +42,31 @@ export default function About({}: Props) {
 
       <div className="space-y-10 px-0 md:px-10 sm:w-full py-20">
         <h4 className="text-4xl font-semibold">
-          Here is a{" "}
-          <span className="underline decoration-[#000000]">little</span>{" "}
-          background
+          {reactStringReplace(t("title"), /(little|poco)/gi, (match, i) => (
+            <span className="underline decoration-[#000000]">{match}</span>
+          ))}
         </h4>
         <p className="text-base">
-          I am a highly motivated and experienced Frontend Developer with{" "}
-          <span className="text-black font-bold">2 years</span> of hands-on
-          experience in a variety of projects, including freelance work, company
-          projects, and personal projects. My expertise lies in Frontend
-          development, specifically using{" "}
-          <span className="text-black font-bold">React</span>, but I also have a
-          strong understanding of Backend development and some DevOps
-          experience. I am passionate about programming and constantly strive to
-          improve my skills and evolve as a professional. I consider myself a{" "}
-          <span className="text-black font-bold">Frontend developer</span> with
-          a Fullstack perspective and a strong desire to learn and the ability
-          to bring both logic and creativity to the development of digital
-          solutions.
-          <br />
-          <br />I am currently delving into the new features offered by React in{" "}
-          <span className="text-black font-bold">Nextjs</span> such as server
-          components and their caching capabilities.
+          {t("description")
+            .split("\n\n")
+            .map((paragraph, index) => (
+              <p key={index} className="mb-2">
+                {reactStringReplace(
+                  paragraph,
+                  /(over 2 years|más de 2 años|Frontend Developer|React|Next\.js|Angular|@bcn)/gi,
+                  (match, i) => {
+                    if (!replacedWords[match.toLowerCase()]) {
+                      replacedWords[match.toLowerCase()] = true;
+                      return (
+                        <span className="text-black font-bold">{match}</span>
+                      );
+                    } else {
+                      return match;
+                    }
+                  }
+                )}
+              </p>
+            ))}
         </p>
       </div>
     </motion.div>

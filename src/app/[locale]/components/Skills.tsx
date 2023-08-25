@@ -3,11 +3,13 @@
 import { motion } from "framer-motion";
 import React from "react";
 import SkillCard from "./SkillCard";
-import skills from "../utils/skills";
+import skills from "../../utils/skills";
+import { useTranslations } from "next-intl";
 
 type Props = {};
 
 function Skills({}: Props) {
+  const t = useTranslations("Skills");
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -19,7 +21,7 @@ function Skills({}: Props) {
         className="absolute uppercase tracking-[20px] text-white text-2xl z-20"
         style={{ position: "absolute", top: "1px" }}
       >
-        Skills
+        {t("title")}
       </h3>
 
       <div

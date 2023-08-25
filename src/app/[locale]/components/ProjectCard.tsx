@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import { motion } from "framer-motion";
@@ -7,30 +8,47 @@ import { BiLinkExternal, BiPlay } from "react-icons/bi";
 import { FaGithub, FaInfo } from "react-icons/fa";
 import Modal from "./Modal";
 import ModalVideo from "./ModalVideo";
+import { useLocale } from "next-intl";
 
 type Props = {
-  projects: {
+  project: {
     name: string;
-    description: string;
+    description?: string;
+    descriptions?: {
+      es: string;
+      en: string;
+    };
     image: string;
     techUsed: string[];
     linkGithub: string;
     linkDeploy: string;
-    longDescription: string;
+    longDescription: {
+      es: string;
+      en: string;
+    };
     linkVideodemo: string;
     status: string;
     moreInfo: boolean;
   };
 };
 
-const ProjectCard = ({ projects }: Props) => {
+const ProjectCard = ({ project }: Props) => {
   const [showModal, setShowModal] = useState(false);
   const [showModalVideo, setShowModalVideo] = useState(false);
+  const locale = useLocale();
+
+  // Definir un tipo para las descripciones dinámicas
+  type Descriptions = {
+    [key: string]: string;
+  };
+
+  const descriptions = project.descriptions as Descriptions;
+  const longDescriptions = project.longDescription as Descriptions;
 
   return (
     <div className="relative flex flex-col items-center justify-center h-auto border border-black rounded-lg">
       <div>
-        <motion.img
+        {/* <motion.img
           initial={{
             y: -300,
             opacity: 0,
@@ -43,16 +61,25 @@ const ProjectCard = ({ projects }: Props) => {
             y: 0,
           }}
           viewport={{ once: true }}
-          src={projects.image}
+          src={project.image}
           alt="/"
+        /> */}
+        <img
+          src={project.image}
+          alt="/"
+          style={{ width: "auto", height: "auto" }}
         />
       </div>
       <div className="px-2">
-        <h3>{projects.name}</h3>
-        <p>{projects.description}</p>
+        <h3>{project.name}</h3>
+        {descriptions && descriptions[locale] ? (
+          <p className="text-xs">{descriptions[locale]}</p>
+        ) : (
+          <p className="text-sm">{project.description}</p>
+        )}
       </div>
       <div className="m-4">
-        {projects.techUsed.map((tech, index) => (
+        {project.techUsed.map((tech, index) => (
           <span
             key={index}
             className="bg-blue-700 text-white p-2 rounded-lg text-sm m-1 mt-1 mb-1 inline-block"
@@ -62,25 +89,25 @@ const ProjectCard = ({ projects }: Props) => {
         ))}
       </div>
       <div className="flex items-center justify-evenly py-4">
-        {projects.linkDeploy === "" ? null : (
+        {project.linkDeploy === "" ? null : (
           <Link
             className="rounded-full shadow-lg bg-white p-4 cursor-pointer hover:scale-110 ease-in duration-300 mx-2"
-            href={projects.linkDeploy}
+            href={project.linkDeploy}
             target="_blank"
           >
             <BiLinkExternal className="text-black h-6 w-6" />
           </Link>
         )}
-        {projects.linkGithub === "" ? null : (
+        {project.linkGithub === "" ? null : (
           <Link
             className="rounded-full shadow-lg bg-white p-4 cursor-pointer hover:scale-110 ease-in duration-300 mx-2"
-            href={projects.linkGithub}
+            href={project.linkGithub}
             target="_blank"
           >
             <FaGithub className="text-black h-6 w-6" />
           </Link>
         )}
-        {projects.longDescription === "" ? null : (
+        {longDescriptions && longDescriptions[locale] ? (
           <Link
             className="rounded-full shadow-lg bg-white p-4 cursor-pointer hover:scale-110 ease-in duration-300 mx-2"
             href=""
@@ -88,8 +115,8 @@ const ProjectCard = ({ projects }: Props) => {
           >
             <FaInfo className="text-black h-6 w-6" />
           </Link>
-        )}
-        {projects.linkVideodemo === "" ? null : (
+        ) : null}
+        {project.linkVideodemo === "" ? null : (
           <Link
             className="rounded-full shadow-lg bg-white p-4 cursor-pointer hover:scale-110 ease-in duration-300 mx-2"
             href=""
@@ -102,12 +129,13 @@ const ProjectCard = ({ projects }: Props) => {
       <Modal
         showModal={showModal}
         setShowModal={setShowModal}
-        projects={projects}
+        project={project}
+        content={longDescriptions && longDescriptions[locale]}
       />
       <ModalVideo
         showModalVideo={showModalVideo}
         setShowModalVideo={setShowModalVideo}
-        projects={projects}
+        projects={project}
       />
     </div>
   );

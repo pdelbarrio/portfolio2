@@ -1,14 +1,17 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
+import Link from "next-intl/link";
 import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import LocaleSwitcher from "./LocaleSwitcher";
+import { useTranslations } from "next-intl";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
+  const t = useTranslations("Navbar");
 
   const handleNav = () => {
     setNav(!nav);
@@ -42,25 +45,29 @@ const Navbar = () => {
             height="63"
           />
         </div>
-        <div>
+        <div className="flex items-center">
+          <div className="flex mr-4">
+            <LocaleSwitcher />
+          </div>
+
           <ul className="hidden md:flex">
             <li className="ml-10 text-sm text-white uppercase hover:border-b">
-              <a href="#home">Home</a>
+              <a href="#home">{t("home")}</a>
             </li>
             <li className="ml-10 text-sm text-white uppercase hover:border-b">
-              <a href="#about">About</a>
+              <a href="#about">{t("about")}</a>
             </li>
             <li className="ml-10 text-sm text-white uppercase hover:border-b">
-              <a href="#skills">Skills</a>
+              <a href="#skills">{t("skills")}</a>
             </li>
             <li className="ml-10 text-sm  text-white uppercase hover:border-b">
-              <a href="#projects">Projects</a>
+              <a href="#projects">{t("projects")}</a>
             </li>
             <li className="ml-10 text-sm  text-white uppercase hover:border-b">
               <a href="#resume">CV</a>
             </li>
             <li className="ml-10 text-sm text-white uppercase hover:border-b">
-              <a href="#contact">Contact</a>
+              <a href="#contact">{t("contact")}</a>
             </li>
           </ul>
           <div onClick={handleNav} className="md:hidden">
@@ -100,9 +107,7 @@ const Navbar = () => {
             </div>
             <div className="border-b border-gray-300 my-4">
               <p className="w-[85%] md:w-[90%] py-2">
-                <span className="italic text-sm">
-                  Problem solver & fast learner
-                </span>
+                <span className="italic text-xs">{t("slogan")}</span>
               </p>
             </div>
           </div>
@@ -110,22 +115,22 @@ const Navbar = () => {
             <ul className="uppercase">
               <a href="#home">
                 <li onClick={() => setNav(false)} className="py-2 text-sm">
-                  Home
+                  {t("home")}
                 </li>
               </a>
               <a href="#about">
                 <li onClick={() => setNav(false)} className="py-2 text-sm">
-                  About
+                  {t("about")}
                 </li>
               </a>
               <a href="#skills">
                 <li onClick={() => setNav(false)} className="py-2 text-sm">
-                  Skills
+                  {t("skills")}
                 </li>
               </a>
               <a href="#projects">
                 <li onClick={() => setNav(false)} className="py-2 text-sm">
-                  Projects
+                  {t("projects")}
                 </li>
               </a>
               <a href="#resume">
@@ -135,13 +140,13 @@ const Navbar = () => {
               </a>
               <a href="#contact">
                 <li onClick={() => setNav(false)} className="py-2 text-sm">
-                  Contact
+                  {t("contact")}
                 </li>
               </a>
             </ul>
             <div className="pt-10">
               <p className="uppercase tracking-widest text-[#05040c]">
-                Find me
+                {t("findMe")}
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                 <Link

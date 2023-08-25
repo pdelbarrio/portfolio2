@@ -3,8 +3,10 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import React from "react";
+import { useTranslations } from "next-intl";
 
 function Resume({}) {
+  const t = useTranslations("Curriculum");
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -22,7 +24,7 @@ function Resume({}) {
           target="_blank"
         >
           <button className="text-black w-40 uppercase bg-white hover:scale-105 transition duration-200 focus_outline-none text-sm rounded-lg px-10 py-2.5 text-center font-bold mr-5 mb-5 md:mb-0">
-            Download CV in English
+            {t("DownloadEng")}
           </button>
         </Link>
 
@@ -31,7 +33,7 @@ function Resume({}) {
           target="_blank"
         >
           <button className="text-black w-40 uppercase bg-white hover:scale-105 transition duration-200 focus_outline-none text-sm rounded-lg px-10 py-2.5 text-center font-bold mr-5 mt-5 md:mt-0">
-            Download CV in Spanish
+            {t("DownloadSpa")}
           </button>
         </Link>
       </div>

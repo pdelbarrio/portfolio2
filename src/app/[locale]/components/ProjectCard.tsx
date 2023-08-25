@@ -71,7 +71,7 @@ const ProjectCard = ({ project }: Props) => {
         />
       </div>
       <div className="px-2">
-        <h3>{project.name}</h3>
+        <h3 className="p-2">{project.name}</h3>
         {descriptions && descriptions[locale] ? (
           <p className="text-xs">{descriptions[locale]}</p>
         ) : (

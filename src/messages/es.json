@@ -8,11 +8,11 @@
   },
   "Navbar": {
     "home": "Inicio",
-    "about": "Acerca de",
+    "about": "Acerca de mí",
     "skills": "Tecnologías",
     "projects": "Proyectos",
     "contact": "contacto",
-    "slogan": "Mentalidad resolutiva y rápida capacidad de aprendizaje",
+    "slogan": "Resolutivo, orientado al detalle y de rápido aprendizaje",
     "findMe": "Mis redes"
   },
   "Main": {
@@ -22,9 +22,9 @@
     "description": "This is a basic example that demonstrates the usage of <code>next-intl</code> with the Next.js App Router. Try changing the locale in the top right corner and see how the content changes."
   },
   "About": {
-    "header": "Acerca de",
+    "header": "Acerca de mí",
     "title": "Un poco de historia",
-    "description": "Soy un Frontend Developer experimentado y altamente motivado, con más de 2 años de experiencia práctica en una variedad de proyectos, incluido proyectos como freelance, proyectos corporativos y proyectos personales. Aunque mi especialización se centra en el Frontend, tengo los conocimientos necesarios para realizar tareas de Backend y algunas funciones de DevOps, lo que me brinda una perspectiva Fullstack y una gran capacidad de aprendizaje.\n\nEn la sección de Proyectos, encontrarás una muestra de mi trabajo, incluido mi último proyecto, @bcn, donde aproveché las últimas funciones de React en Next.js, como los Server Components. El proyecto se integró perfectamente con Supabase como BaaS, demostrando mi capacidad para explorar y aplicar tecnologías de vanguardia para crear soluciones integrales.\n\nActualmente, estoy aprendiendo Angular para ampliar mi stack tecnológico. Esto me ayuda a abordar la resolución de problemas desde una nueva perspectiva en comparación con mi experiencia en React. Aprender Angular como desarrollador React amplía mi experiencia y enriquece mi comprensión del desarrollo frontend."
+    "description": "Soy un Frontend Developer experimentado y altamente motivado, con más de 2 años de experiencia práctica en una gran variedad de proyectos, incluyendo proyectos realizados como freelance, proyectos corporativos y proyectos personales. Aunque mi especialización se centra en el Frontend, tengo los conocimientos necesarios para realizar tareas de Backend y algunas funciones de DevOps, lo que me brinda una perspectiva Fullstack y una gran capacidad de aprendizaje.\n\nEn la sección de Proyectos, encontrarás una muestra de mi trabajo, incluido mi último proyecto, @bcn, donde aproveché las últimas funciones de React en Next.js, como los Server Components. En este proyecto utilicé Supabase como BaaS, demostrando mi capacidad para explorar y aplicar tecnologías de vanguardia para crear soluciones integrales.\n\nActualmente, estoy aprendiendo Angular para ampliar mi stack tecnológico. Esto me ayuda a abordar la resolución de problemas desde una nueva perspectiva en comparación con mi experiencia en React. Aprender Angular como desarrollador React amplía mi experiencia y enriquece mi comprensión del desarrollo frontend."
   },
   "Skills": {
     "title": "Tecnologías"

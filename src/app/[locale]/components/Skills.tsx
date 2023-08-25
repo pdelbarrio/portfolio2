@@ -18,7 +18,7 @@ function Skills({}: Props) {
       className="h-screen flex relative flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center"
     >
       <h3
-        className="absolute uppercase tracking-[20px] text-white text-2xl z-20"
+        className="absolute uppercase tracking-[10px] text-white text-2xl z-20"
         style={{ position: "absolute", top: "1px" }}
       >
         {t("title")}

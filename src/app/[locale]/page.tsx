@@ -22,7 +22,10 @@ export default function Home() {
           <Main />
         </section>
 
-        <section id="about" className="py-20 mb-25 text-white">
+        <section
+          id="about"
+          className="py-20 mb-[470px] md:py-20 md:mb-20 text-white"
+        >
           <About />
         </section>
 

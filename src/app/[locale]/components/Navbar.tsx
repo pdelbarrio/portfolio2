@@ -46,7 +46,7 @@ const Navbar = () => {
           />
         </div>
         <div className="flex items-center">
-          <div className="flex mr-4">
+          <div className="flex mr-0">
             <LocaleSwitcher />
           </div>
 
@@ -78,7 +78,7 @@ const Navbar = () => {
 
       <div
         className={
-          nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/70" : ""
+          nav ? "sm:hidden fixed left-0 top-0 w-full h-screen bg-black/70" : ""
         }
       >
         <div

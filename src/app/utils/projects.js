@@ -38,6 +38,8 @@ const projects = [
         Con @bcn, he creado una herramienta práctica y eficiente para mantener a las personas informadas sobre los eventos locales, solventando el problema de tener toda la información dispersa en diferentes aplicaciones y webs. Además de ser una aplicación muy útil, este proyecto demuestra mi capacidad para moverme con documentación y aprender nuevas tecnologías experimentales, como la app folder de las versiones de Next.js posteriores a v13, los React Server Components y la integración con Supabase como BaaS.
          
         Este proyecto también destaca mi habilidad para crear una interfaz de usuario intuitiva y receptiva, así como mi enfoque en la calidad. @bcn es más que una simple agenda de eventos; es una muestra de mi capacidad para realizar proyectos funcionales y orientados al usuario en el desarrollo web.
+
+        Puedes ver una promo en video de la aplicación si clicas en el botón de abajo.
       `,
       en: `The app to stay updated on local events
 
@@ -57,10 +59,12 @@ const projects = [
       With @bcn, I've created a practical and efficient tool to keep people informed about local events, solving the problem of scattered information across different apps and websites. Beyond being a highly useful app, this project showcases my ability to navigate documentation and learn new experimental technologies, such as Next.js app folder in versions later than v13, React Server Components, and integration with Supabase as a BaaS.
       
       This project also highlights my ability to create an intuitive and responsive user interface, as well as my emphasis on quality. @bcn is more than just an event calendar; it's a testament to my capacity to deliver functional, user-centric projects in web development.
+
+      You can see a promo video of the application by clicking on the button below.
       `,
     },
 
-    linkVideodemo: "",
+    linkVideodemo: "https://vimeo.com/860599617",
     status: "Online",
     moreInfo: true,
   },

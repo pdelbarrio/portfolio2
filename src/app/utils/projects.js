@@ -2,8 +2,8 @@ const projects = [
   {
     name: "@bcn.info",
     descriptions: {
-      es: "Agenda colaborativa de eventos culturales de Barcelona",
-      en: "Collaborative agenda of cultural events in Barcelona",
+      es: "Agenda colaborativa de eventos culturales de Barcelona.",
+      en: "Collaborative agenda of cultural events in Barcelona.",
     },
     image:
       "https://res.cloudinary.com/getoutbcn/image/upload/v1694022411/portfolio/projects/atbcnMOCK_znpbvs.png",
@@ -71,8 +71,8 @@ const projects = [
   {
     name: "GetOut BCN",
     descriptions: {
-      es: "GET OUT BCN es una base de datos colaborativa de lugares geniales en Barcelona...",
-      en: "GET OUT BCN is a collaborative database of cool spots in Barcelona...",
+      es: "GET OUT BCN es una base de datos colaborativa de lugares interesantes de Barcelona.",
+      en: "GET OUT BCN is a collaborative database of cool spots in Barcelona.",
     },
     image:
       "https://res.cloudinary.com/getoutbcn/image/upload/v1675715953/portfolio/projects/getout_j5jli1.png",
@@ -100,7 +100,7 @@ const projects = [
   {
     name: "intrathecapp web app (PRIALT)",
     descriptions: {
-      es: "Frontend de una aplicación web que calcula dosis de medicamentos para uso farmacéutico. Haz clic en el botón de información para obtener más información o en el botón de play para ver una demostración.",
+      es: "Frontend de una aplicación web que calcula dosis de medicamentos para uso farmacéutico. Haz clic en el botón de información para obtener más información o en el botón de play para ver una demo en vídeo.",
       en: "Frontend of a web application that calculates drug doses for pharmaceutical use. Click the info button for more info or in the play button for a demo.",
     },
     image:
@@ -166,8 +166,8 @@ const projects = [
   {
     name: "Summarify",
     descriptions: {
-      es: "Aplicación que usa la API de RapidAPI para hacer resúmenes de artículos usando ChatGPT-4",
-      en: "Google Translator clone made with React and using the OpenAI API",
+      es: "Aplicación que hacer resúmenes de artículos usando Inteligencia Artificial",
+      en: "Application that summarizes articles using Artificial Intelligence",
     },
     image:
       "https://res.cloudinary.com/getoutbcn/image/upload/v1694021958/portfolio/projects/Summarify_nqjvhj.png",

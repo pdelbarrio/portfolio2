@@ -6,7 +6,7 @@ const projects = [
       en: "Collaborative agenda of cultural events in Barcelona",
     },
     image:
-      "https://res.cloudinary.com/getoutbcn/image/upload/v1692969003/portfolio/atbcnmockedv3_cdmzbe.png",
+      "https://res.cloudinary.com/getoutbcn/image/upload/v1694022411/portfolio/projects/atbcnMOCK_znpbvs.png",
     techUsed: [
       "NextJs",
       "HTML",
@@ -160,6 +160,33 @@ const projects = [
       en: "Google Translator clone made with React. The main reason to do this app was to make my first app using the OpenAI API. Also to practice with the hook useReducer and make custom hooks like useDebounce to fine tune the translation process. Once I saw the potential of the AI and the use of prompts I might try to use another free API to translate (like the one from DeepL) since this API is not free, even if it is not very expensive, I have put a limit just in case. If it doesn't work because of this limit, you can see the basic operation of the app if you click play on the video demo.",
     },
     linkVideodemo: "https://vimeo.com/815872902",
+    status: "",
+    moreInfo: false,
+  },
+  {
+    name: "Summarify",
+    descriptions: {
+      es: "Aplicación que usa la API de RapidAPI para hacer resúmenes de artículos usando ChatGPT-4",
+      en: "Google Translator clone made with React and using the OpenAI API",
+    },
+    image:
+      "https://res.cloudinary.com/getoutbcn/image/upload/v1694021958/portfolio/projects/Summarify_nqjvhj.png",
+    techUsed: ["React", "Rapid API", "ChatGPT-4", "Tailwind", "Redux Toolkit"],
+    linkGithub: "https://github.com/pdelbarrio/ai_summarizer",
+    linkDeploy: "https://summarify-app.netlify.app/",
+    longDescription: {
+      es: `Summarify es una aplicación web responsive realizada con React que utiliza IA para resumir artículos y contenido web. Desarrollada para mejorar habilidades como ReactJS, el uso de Redux Toolkit, Tailwind etc. La aplicación ofrece una interfaz fácil de usar creada con Tailwind CSS. Integra la API Article Extractor and Summarizer de RapidAPI.
+
+Los usuarios pueden simplemente introducir la URL de un artículo, y la IA procesa el contenido, proporcionando una versión resumida. En particular, Summarify almacena los resúmenes y sus enlaces en local storage para facilitar su recuperación sin tener que realizar repetidas solicitudes a la API. Además, los usuarios pueden copiar los enlaces al portapapeles con un solo clic.
+            
+Ten en cuenta que el plan gratuito de RapidAPI tiene una limitación de 50 requests al mes. Así que si la aplicación le da un error probablemente sea por este motivo, pero puedes ver una demo en vídeo si clicas en el botón de play.`,
+      en: `Summarify is a responsive web application built with React that utilizes AI to summarize articles and web content. Developed to enhance skills such as ReactJS, Redux Toolkit usage, Tailwind and so. The app offers a user-friendly interface created with Tailwind CSS. It integrates the Article Extractor and Summarizer API from RapidAPI.
+
+Users can simply enter an article's URL, and the AI processes the content, providing a summarized version. Notably, Summarify stores summaries and their links in local storage for easy retrieval without repeated API requests. Additionally, users can conveniently copy links to the clipboard with a single click.
+      
+Please be aware that the free plan on RapidAPI comes with a limitation of 50 requests per month. So if the application gives you an error it is probably for this reason but you can see a video demo if you click on the play button.`,
+    },
+    linkVideodemo: "https://vimeo.com/861748863",
     status: "",
     moreInfo: false,
   },

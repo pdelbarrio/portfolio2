@@ -53,7 +53,7 @@ export default function About({}: Props) {
               <p key={index} className="mb-2">
                 {reactStringReplace(
                   paragraph,
-                  /(over 2 years|más de 2 años|Frontend Developer|React|Next\.js|Angular|@bcn)/gi,
+                  /(over 2 years|más de 2 años|Frontend Developer|React|Next\.js|Angular|@bcn|creciendo como profesional|grow as a professional)/gi,
                   (match, i) => {
                     if (!replacedWords[match.toLowerCase()]) {
                       replacedWords[match.toLowerCase()] = true;

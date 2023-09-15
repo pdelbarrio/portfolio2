@@ -190,6 +190,62 @@ Please be aware that the free plan on RapidAPI comes with a limitation of 50 req
     status: "",
     moreInfo: false,
   },
+  {
+    name: "Explore Cars App 🚗",
+    descriptions: {
+      es: "Aplicación para buscar coches según distintos parámetros realizando queries contra una API",
+      en: "Application to search for cars according to different parameters by performing queries against an API.",
+    },
+    image:
+      "https://res.cloudinary.com/getoutbcn/image/upload/v1694796412/portfolio/projects/explore_cars_cfsgq6.png",
+    techUsed: [
+      "React",
+      "Nextjs",
+      "TypeScript",
+      "Tailwind",
+      "BEM",
+      "Semantic HTML",
+      "Headless UI",
+      "SSR",
+    ],
+    linkGithub: "https://github.com/pdelbarrio/car_showcase",
+    linkDeploy: "https://explore-cars.vercel.app/",
+    longDescription: {
+      es: `La aplicación Explore Cars, desarrollada con Next.js, es una aplicación responsiva realizada para perfeccionar una variedad de habilidades de desarrollo web y seguir las mejores prácticas de la industria. 
+
+Uno de los aspectos destacados de este proyecto es su compromiso de producir contenido accesible y amigable para la optimización en motores de búsqueda mediante el uso de etiquetas HTML semánticas. Para mantener un código limpio y manejable, el CSS sigue la convención de nomenclatura Block, Element, Modifier (BEM).
+      
+En lo que a interfaz de usuario se refiere, la aplicación integra de manera fluida componentes de la librería Headless UI diseñados para integrarse sin problemas con Tailwind CSS, mejorando la experiencia general del usuario.
+      
+Para los datos de los coches se utiliza la API de la plataforma RapidAPI, que proporciona acceso a una amplia variedad de información sobre automóviles.
+      
+Se han creado componentes personalizados y reutilizables, que incluyen botones y filtros, estratégicamente incorporados en la aplicación para promover la modularidad del código y su facilidad de mantenimiento.
+      
+Se utiliza TypeScript en toda la aplicación, ofreciendo tipado estático y una mayor confiabilidad del código, lo que mejora la solidez del proyecto.
+      
+Para la optimización del rendimiento y mejoras de SEO en páginas específicas, se implementa el Renderizado en el Lado del Servidor (SSR) usando los React Server Components y sus ventajas, entre ellas la posibilidad de compartir un enlace con los parámetros utilizados en la query, algo que no se puede realizar con los Client Components como hasta ahora.
+      
+En cuanto a la gestión de datos, se emplean consultas avanzadas para recuperar y mostrar eficientemente los datos de los automóviles, asegurando una experiencia de usuario receptiva y dinámica.`,
+      en: `The Explore Cars application, developed with Next.js, is a responsive application made to hone a variety of web development skills and follow industry best practices. 
+
+One of the notable aspects of this project is its commitment to producing accessible and SEO-friendly content through the use of semantic HTML tags. For a clean and manageable codebase, the CSS adheres to the Block, Element, Modifier (BEM) naming convention.
+      
+In terms of the user interface, the app smoothly integrates UI components of the Headless UI library, designed to seamlessly mesh with Tailwind CSS, enhancing the overall user experience.
+      
+To populate the app with real data, the RapidAPI platform's API is employed, providing access to a wide variety of car information including name, model, fuel and year. 
+      
+Custom reusable components, including buttons and filters, are strategically built into the app, promoting code modularity and maintainability.
+      
+TypeScript is utilized throughout the application, offering static typing and increased code reliability, enhancing the robustness of the project.
+      
+For performance optimization and SEO improvements on specific pages, Server Side Rendering (SSR) is implemented using React Server Components and its advantages, among them the possibility of sharing a link with the parameters used in the query, something that cannot be done with Client Components as up to now.
+      
+In terms of data management, advanced queries are employed to efficiently fetch and display car data, ensuring a responsive and dynamic user experience.`,
+    },
+    linkVideodemo: "",
+    status: "",
+    moreInfo: false,
+  },
   // {
   //   name: "QUIZR",
   //   description:

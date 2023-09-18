@@ -166,7 +166,7 @@ const projects = [
   {
     name: "Summarify",
     descriptions: {
-      es: "Aplicación que hacer resúmenes de artículos usando Inteligencia Artificial",
+      es: "Aplicación para realizar resúmenes de artículos usando Inteligencia Artificial",
       en: "Application that summarizes articles using Artificial Intelligence",
     },
     image:

@@ -170,7 +170,7 @@ const projects = [
       en: "Application that summarizes articles using Artificial Intelligence",
     },
     image:
-      "https://res.cloudinary.com/getoutbcn/image/upload/v1694021958/portfolio/projects/Summarify_nqjvhj.png",
+      "https://res.cloudinary.com/getoutbcn/image/upload/v1695021292/portfolio/projects/Summarify_vbfgr9.png",
     techUsed: ["React", "Rapid API", "ChatGPT-4", "Tailwind", "Redux Toolkit"],
     linkGithub: "https://github.com/pdelbarrio/ai_summarizer",
     linkDeploy: "https://summarify-app.netlify.app/",

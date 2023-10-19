@@ -1,6 +1,6 @@
 # Pablo del Barrio's Portfolio
 
-![Portfolio Preview](https://res.cloudinary.com/getoutbcn/image/upload/v1697718973/portfolio/portfoliomockupmobile_nfjwua.png)
+<img src="https://res.cloudinary.com/getoutbcn/image/upload/v1697718973/portfolio/portfoliomockupmobile_nfjwua.png" alt="Portfolio Preview" width="50%">
 
 ## Introduction
 

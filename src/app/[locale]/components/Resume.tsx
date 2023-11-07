@@ -20,7 +20,7 @@ function Resume({}) {
 
       <div className="flex flex-col md:flex-row justify-center items-center">
         <Link
-          href="https://res.cloudinary.com/getoutbcn/image/upload/v1697718024/portfolio/PablodelBarrio_english2023_kknrgj.pdf"
+          href="https://res.cloudinary.com/getoutbcn/image/upload/v1699387376/portfolio/PablodelBarrio_english2023_jfajhw.pdf"
           target="_blank"
         >
           <button className="text-black w-40 uppercase bg-white hover:scale-105 transition duration-200 focus_outline-none text-sm rounded-lg px-10 py-2.5 text-center font-bold mr-5 mb-5 md:mb-0">
@@ -29,7 +29,7 @@ function Resume({}) {
         </Link>
 
         <Link
-          href="https://res.cloudinary.com/getoutbcn/image/upload/v1697718024/portfolio/PablodelBarrio_spanish2023_tuxmmp.pdf"
+          href="https://res.cloudinary.com/getoutbcn/image/upload/v1699387096/portfolio/PablodelBarrio_spanish2023_azbpqv.pdf"
           target="_blank"
         >
           <button className="text-black w-40 uppercase bg-white hover:scale-105 transition duration-200 focus_outline-none text-sm rounded-lg px-10 py-2.5 text-center font-bold mr-5 mt-5 md:mt-0">

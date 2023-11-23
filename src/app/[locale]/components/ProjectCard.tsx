@@ -46,7 +46,7 @@ const ProjectCard = ({ project }: Props) => {
   const longDescriptions = project.longDescription as Descriptions;
 
   return (
-    <div className="relative flex flex-col items-center justify-center h-auto border border-black rounded-lg">
+    <div className="relative bg-[#11435f] flex flex-col items-center justify-center h-auto rounded-lg">
       <div>
         {/* <motion.img
           initial={{

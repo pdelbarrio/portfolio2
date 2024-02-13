@@ -76,6 +76,10 @@ const skills = [
     logo: "https://res.cloudinary.com/getoutbcn/image/upload/v1675346771/portfolio/skills/jest_rxc3wy.png",
   },
   {
+    name: "Cypress",
+    logo: "https://res.cloudinary.com/getoutbcn/image/upload/v1707833381/portfolio/skills/cypress_bjhj4e.jpg",
+  },
+  {
     name: "Docker",
     logo: "https://res.cloudinary.com/getoutbcn/image/upload/v1675888854/portfolio/skills/docker_jjsmjr.png",
   },

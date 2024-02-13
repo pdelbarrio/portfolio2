@@ -18,13 +18,13 @@
   "Main": {
     "soy": "Hi, I am",
     "frontend": "a Frontend Developer",
-    "mainText": "with over 2 years of React experience, I'm driven by digital culture and stay current with the latest tech trends. I thrive on blending code and creativity to craft innovative and impactful digital solutions. My goal is to deliver high quality results in every project I work on.",
+    "mainText": "with almost 3 years of React experience, I'm driven by digital culture and stay current with the latest tech trends. I thrive on blending code and creativity to craft innovative and impactful digital solutions. My goal is to deliver high quality results in every project I work on.",
     "description": "This is a basic example that demonstrates the usage of <code>next-intl</code> with the Next.js App Router. Try changing the locale in the top right corner and see how the content changes."
   },
   "About": {
     "header": "About",
     "title": "Here is a little background",
-    "description": "I am an experienced and highly motivated Frontend Developer with over 2 years of hands-on experience across a range of projects, including freelance work, company projects, and personal endeavors. Although my specialization is focused on Frontend, I have the necessary knowledge to perform Backend tasks and some DevOps functions, which gives me a Fullstack perspective and a great learning capacity.\n\nIn the Projects section, you'll find a showcase of my work, including my latest project, @bcn, a project where I leveraged the latest features of React in Next.js, such as server components. The project was seamlessly integrated with Supabase, demonstrating my capacity to explore and apply cutting-edge technologies to create comprehensive solutions.\n\nI aspire to contribute significantly to challenging and collaborative projects that will allow me to continue to grow as a professional."
+    "description": "I am an experienced and highly motivated Frontend Developer with almost 3 years of hands-on experience across a range of projects, including freelance work, company projects, and personal endeavors. Although my specialization is focused on Frontend, I have the necessary knowledge to perform Backend tasks and some DevOps functions, which gives me a Fullstack perspective and a great learning capacity.\n\nIn the Projects section, you'll find a showcase of my work, including my latest project, @bcn, a project where I leveraged the latest features of React in Next.js, such as server components. The project was seamlessly integrated with Supabase, demonstrating my capacity to explore and apply cutting-edge technologies to create comprehensive solutions.\n\nI aspire to contribute significantly to challenging and collaborative projects that will allow me to continue to grow as a professional."
   },
   "Skills": {
     "title": "Skills"

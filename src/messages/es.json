@@ -18,13 +18,13 @@
   "Main": {
     "soy": "Hola, soy",
     "frontend": "un Frontend Developer",
-    "mainText": "con más de 2 años de experiencia en React. Me apasiona la cultura digital y siempre estoy al día con las últimas tendencias en tecnología. Me gusta fusionar código y creatividad para crear soluciones digitales innovadoras y efectivas. Mi objetivo es ofrecer resultados de alta calidad en cada proyecto en el que trabajo.",
+    "mainText": "con casi 3 años de experiencia en React. Me apasiona la cultura digital y siempre estoy al día con las últimas tendencias en tecnología. Me gusta fusionar código y creatividad para crear soluciones digitales innovadoras y efectivas. Mi objetivo es ofrecer resultados de alta calidad en cada proyecto en el que trabajo.",
     "description": "This is a basic example that demonstrates the usage of <code>next-intl</code> with the Next.js App Router. Try changing the locale in the top right corner and see how the content changes."
   },
   "About": {
     "header": "Acerca de mí",
     "title": "Un poco de historia",
-    "description": "Soy un Frontend Developer experimentado y altamente motivado, con más de 2 años de experiencia práctica en una gran variedad de proyectos, incluyendo proyectos realizados como freelance, proyectos corporativos y proyectos personales. Aunque mi especialización se centra en el Frontend, tengo los conocimientos necesarios para realizar tareas de Backend y algunas funciones de DevOps, lo que me brinda una perspectiva Fullstack y una gran capacidad de aprendizaje.\n\nEn la sección de Proyectos, encontrarás una muestra de mi trabajo, incluido mi último proyecto, @bcn, donde aproveché las últimas funciones de React en Next.js, como los Server Components. En este proyecto utilicé Supabase como BaaS, demostrando mi capacidad para explorar y aplicar tecnologías de vanguardia para crear soluciones integrales.\n\nAspiro a contribuir de manera significativa en proyectos desafiantes y colaborativos que me permitan seguir creciendo como profesional"
+    "description": "Soy un Frontend Developer experimentado y altamente motivado, con casi 3 años de experiencia práctica en una gran variedad de proyectos, incluyendo proyectos realizados como freelance, proyectos corporativos y proyectos personales. Aunque mi especialización se centra en el Frontend, tengo los conocimientos necesarios para realizar tareas de Backend y algunas funciones de DevOps, lo que me brinda una perspectiva Fullstack y una gran capacidad de aprendizaje.\n\nEn la sección de Proyectos, encontrarás una muestra de mi trabajo, incluido mi último proyecto, @bcn, donde aproveché las últimas funciones de React en Next.js, como los Server Components. En este proyecto utilicé Supabase como BaaS, demostrando mi capacidad para explorar y aplicar tecnologías de vanguardia para crear soluciones integrales.\n\nAspiro a contribuir de manera significativa en proyectos desafiantes y colaborativos que me permitan seguir creciendo como profesional"
   },
   "Skills": {
     "title": "Tecnologías"

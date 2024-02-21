@@ -10,6 +10,11 @@ type Props = {};
 export default function About({}: Props) {
   const t = useTranslations("About");
   let replacedWords = {} as any;
+
+  const replaceAtBcn = (text: string) => {
+    return text.replace(/(@bcn)/gi, "###AT_BCN###");
+  };
+
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -49,24 +54,42 @@ export default function About({}: Props) {
         <p className="text-base">
           {t("description")
             .split("\n\n")
-            .map((paragraph, index) => (
-              <p key={index} className="mb-2">
-                {reactStringReplace(
-                  paragraph,
-                  /(3 años de experiencia|3 years of hands-on experience|Frontend Developer|React|Next\.js|Angular|@bcn|creciendo como profesional|grow as a professional)/gi,
-                  (match, i) => {
-                    if (!replacedWords[match.toLowerCase()]) {
-                      replacedWords[match.toLowerCase()] = true;
-                      return (
-                        <span className="text-black font-bold">{match}</span>
-                      );
-                    } else {
-                      return match;
-                    }
+            .map((paragraph, index) => {
+              // Replace styled words and add link behavior to "@bcn"
+              const replacedText = reactStringReplace(
+                paragraph,
+                /(3 años de experiencia|3 years of hands-on experience|Frontend Developer|React|Next\.js|Angular|@bcn|creciendo como profesional|grow as a professional)/gi,
+                (match, i) => {
+                  if (match.toLowerCase() === "@bcn") {
+                    // For "@bcn", return the link
+                    return (
+                      <a
+                        key={i}
+                        href="https://www.atbcn.info/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-black font-bold hover:underline"
+                      >
+                        {match}
+                      </a>
+                    );
+                  } else {
+                    // For other words, apply the initial styling
+                    return (
+                      <span key={i} className="text-black font-bold">
+                        {match}
+                      </span>
+                    );
                   }
-                )}
-              </p>
-            ))}
+                }
+              );
+
+              return (
+                <p key={index} className="mb-2">
+                  {replacedText}
+                </p>
+              );
+            })}
         </p>
       </div>
     </motion.div>

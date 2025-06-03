@@ -25,9 +25,15 @@ const Main = () => {
           </div>
           <h1 className="text-[#fff]">{t("frontend")}</h1>
           <p className="py-4 text-white max-w-[70%] m-auto">
-            {reactStringReplace(t("mainText"), "React", (match, i) => (
-              <span className="text-black font-bold">{match}</span>
-            ))}
+            {reactStringReplace(
+              t("mainText"),
+              /(React|Artificial Intelligence|Inteligencia Artificial)/gi,
+              (match, i) => (
+                <span key={i} className="text-black font-bold">
+                  {match}
+                </span>
+              )
+            )}
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <Link

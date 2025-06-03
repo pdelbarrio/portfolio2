@@ -18,7 +18,7 @@
   "Main": {
     "soy": "Hola, soy",
     "frontend": "un Frontend Developer",
-    "mainText": "con 3 años de experiencia en React. Me apasiona la cultura digital y siempre estoy al día con las últimas tendencias en tecnología. Me gusta fusionar código y creatividad para crear soluciones digitales innovadoras y efectivas. Mi objetivo es ofrecer resultados de alta calidad en cada proyecto en el que trabajo.",
+    "mainText": "con 3 años de experiencia en React. Me apasiona la cultura digital y siempre estoy al día con las últimas tendencias en tecnología, incluyendo la Inteligencia Artificial. Me gusta fusionar código y creatividad para crear soluciones digitales innovadoras y efectivas. Mi objetivo es ofrecer resultados de alta calidad en cada proyecto en el que trabajo.",
     "description": "This is a basic example that demonstrates the usage of <code>next-intl</code> with the Next.js App Router. Try changing the locale in the top right corner and see how the content changes."
   },
   "About": {

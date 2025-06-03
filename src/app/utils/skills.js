@@ -20,6 +20,14 @@ const skills = [
     logo: "https://res.cloudinary.com/getoutbcn/image/upload/v1675346771/portfolio/skills/typescript_hcwhiv.png",
   },
   {
+    name: "OpenAI",
+    logo: "https://res.cloudinary.com/getoutbcn/image/upload/v1748963035/portfolio/skills/openai_njnoyh.png",
+  },
+  {
+    name: "trae.ai IDE",
+    logo: "https://res.cloudinary.com/getoutbcn/image/upload/v1748963303/portfolio/skills/traeai_pqvnlt.jpg",
+  },
+  {
     name: "React Native",
     logo: "https://res.cloudinary.com/getoutbcn/image/upload/v1675346770/portfolio/skills/reactnative_mpsyqb.png",
   },

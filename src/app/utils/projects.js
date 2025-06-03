@@ -69,10 +69,36 @@ const projects = [
     moreInfo: true,
   },
   {
+    name: "Plants App",
+    descriptions: {
+      es: "Esta aplicación integra la API de OpenAI para identificar y analizar plantas a partir de una imagen.",
+      en: "This application integrates the OpenAI API to identify and analyze plants from an image.",
+    },
+    image:
+      "https://res.cloudinary.com/getoutbcn/image/upload/v1748961441/portfolio/projects/mockup1_hjip1w.png",
+    techUsed: [
+      "Nextjs",
+      "React",
+      "OpenAI",
+      "TypeScript",
+      "Tailwind",
+      "MongoDB",
+    ],
+    linkGithub: "https://github.com/pdelbarrio/ai-plants",
+    linkDeploy: "https://ai-plants.vercel.app/",
+    longDescription: {
+      es: "Esta aplicación permite identificar y analizar plantas a partir de una foto utilizando Inteligencia Artificial. El usuario puede subir una imagen de una planta, y el sistema devuelve información detallada sobre ella: nombre, descripción, dificultad de cuidado, frecuencia de riego, necesidades de luz y temperatura ideal. Una vez identificada, la planta se guarda en una base de datos y puede consultarse o eliminarse posteriormente.",
+      en: "This application allows to identify and analyze plants from a photo using Artificial Intelligence. The user can upload an image of a plant, and the system returns detailed information about it: name, description, difficulty of care, watering frequency, light requirements and ideal temperature. Once identified, the plant is saved in a database and can be consulted or deleted later.",
+    },
+    linkVideodemo: "https://vimeo.com/1090117478",
+    status: "Online",
+    moreInfo: true,
+  },
+  {
     name: "GetOut BCN",
     descriptions: {
-      es: "GET OUT BCN es una base de datos colaborativa de lugares interesantes de Barcelona.",
-      en: "GET OUT BCN is a collaborative database of cool spots in Barcelona.",
+      es: "GET OUT BCN es una base de datos colaborativa de lugares interesantes de Barcelona. [Status: Inactivo por falta de uso, pero puedes ver el repo y la video demo].",
+      en: "GET OUT BCN is a collaborative database of cool spots in Barcelona. [status: Inactive due to lack of use, but you can see the repo and the video demo] ",
     },
     image:
       "https://res.cloudinary.com/getoutbcn/image/upload/v1675715953/portfolio/projects/getout_j5jli1.png",
@@ -94,7 +120,7 @@ const projects = [
       en: "GET OUT BCN is a collaborative database of cool spots in Barcelona. It is divided into different categories. The user has to register to browse or to add spots to the database. The spots are moderated and will not appear until validated by the administrator. Regarding the more technical part one of my purposes with this project was to get into the TypeScript world with React. And although at the beginning it was complicated, as the project progressed I got used to it and it even made some tasks easier if the types were well defined, thus adding an extra layer of security to the application. Another of my purposes was to do testing, and I did TDD with Jest on the backend routes.",
     },
     linkVideodemo: "https://vimeo.com/720203535",
-    status: "Online",
+    status: "Inactive",
     moreInfo: true,
   },
   {

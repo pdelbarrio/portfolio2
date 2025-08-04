@@ -95,6 +95,46 @@ const projects = [
     moreInfo: true,
   },
   {
+    name: "BoostMyCV",
+    descriptions: {
+      es: "Esta aplicación usa IA para analizar tu currículum en función de una oferta laboral concreta y te ofrece puntuación y consejos personalizados para optimizarlo y superar filtros ATS.",
+      en: "This is a smart web application that uses AI to analyze your resume against a specific job description, providing tailored scores and actionable feedback to help you beat ATS filters.",
+    },
+    image:
+      "https://res.cloudinary.com/getoutbcn/image/upload/v1754328323/portfolio/boostmycv_sj2mii.png",
+    techUsed: [
+      "React",
+      "React-Router",
+      "TypeScript",
+      "Tailwind",
+      "Puter.js",
+      "Zustand",
+      "AI",
+      "Claude"
+    ],
+    linkGithub: "https://github.com/pdelbarrio/ai-resume-analyzer",
+    linkDeploy: "https://boostmycv.vercel.app/",
+    longDescription: {
+      es: `
+BoostMyCV es una herramienta desarrollada con React, TypeScript y tecnologías modernas como Tailwind, Zustand y Puter.js, diseñada para ayudarte a mejorar tus oportunidades laborales. Permite al usuario subir una descripción de oferta de trabajo junto a su currículum, y gracias a la integración de inteligencia artificial, realiza un análisis detallado del CV.
+
+La IA evalúa el documento en cuatro dimensiones clave: tono y estilo, contenido, estructura y habilidades. El sistema genera una puntuación global y proporciona recomendaciones específicas para adaptar el currículum al puesto, optimizando así sus posibilidades de pasar filtros automatizados (ATS).
+
+La app también permite conservar un historial de currículums analizados, y todo su diseño es responsive para adaptarse a distintos dispositivos. El código sigue principios de clean code y está pensado para ser mantenible y escalable.
+      `,
+      en: `
+BoostMyCV is a web application built with React, TypeScript, and modern tools like Tailwind, Zustand, React Router, Puter.js, and React Dropzone. It helps job seekers tailor their résumés to specific job postings by leveraging AI-powered analysis.
+
+Users can upload a job description along with their résumé, and the app evaluates the CV across four key areas: tone & style, content, structure, and skills. It then provides a comprehensive score and detailed, personalized suggestions to improve alignment with the target role—maximizing the chances of passing Applicant Tracking Systems (ATS).
+
+The application also features CV history tracking, allowing users to review past analyses. The interface is fully responsive, and the codebase adheres to clean code principles, making it easy to maintain and scale.
+      `,
+    },
+    linkVideodemo: "",
+    status: "Online",
+    moreInfo: true,
+  },
+  {
     name: "GetOut BCN",
     descriptions: {
       es: "GET OUT BCN es una base de datos colaborativa de lugares interesantes de Barcelona. [Status: Inactivo por falta de uso, pero puedes ver el repo y la video demo].",
@@ -272,21 +312,6 @@ In terms of data management, advanced queries are employed to efficiently fetch 
     status: "",
     moreInfo: false,
   },
-  // {
-  //   name: "QUIZR",
-  //   description:
-  //     "Mobile friendly app made to practice with asynchronous JavaScript, CSS, Express, MongoDB and PWA. It is a simple quiz app with questions about Web Development that can be installed on the cell phone. I am regularly adding questions. Highscores section still to be fixed and future improvements on the way including new frontend with React/Next",
-  //   image:
-  //     "https://res.cloudinary.com/getoutbcn/image/upload/v1675939793/portfolio/projects/quizr_dwh3or.png",
-  //   techUsed: ["HTML", "CSS", "JavaScript", "Express", "MongoDB", "PWA"],
-  //   linkGithub: "https://github.com/pdelbarrio/quizapp",
-  //   linkDeploy: "https://quizr.netlify.app/",
-  //   longDescription: "",
-  //   linkVideodemo: "",
-  //   status:
-  //     "Constant evolution, adding questions and answers using chatGPT. Highscores section still to be fixed and future improvements on the way including new frontend with React/Next",
-  //   moreInfo: false,
-  // },
 ];
 
 export default projects;
